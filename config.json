@@ -1,0 +1,33 @@
+{
+  "brand": "Meridian Wire",
+  "videoLabel": "TOP STORY",
+  "postMode": "draft",
+  "markAsAiGenerated": true,
+  "voice": "en-US-AndrewNeural",
+  "model": "openai/gpt-4o-mini",
+  "storiesPerEdition": 18,
+  "videosKeptOnSite": 7,
+  "hashtags": ["worldnews", "news"],
+  "feeds": [
+    { "name": "BBC", "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
+    { "name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml" },
+    { "name": "The Guardian", "url": "https://www.theguardian.com/world/rss" },
+    { "name": "New York Times", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml" },
+    { "name": "France 24", "url": "https://www.france24.com/en/rss" },
+    { "name": "DW", "url": "https://rss.dw.com/rdf/rss-en-world" },
+    { "name": "NPR", "url": "https://feeds.npr.org/1004/rss.xml" },
+    { "name": "Sky News", "url": "https://feeds.skynews.com/feeds/rss/world.xml" },
+    { "name": "CBS News", "url": "https://www.cbsnews.com/latest/rss/world" },
+    { "name": "ABC News", "url": "https://abcnews.go.com/abcnews/internationalheadlines" },
+    { "name": "CBC", "url": "https://www.cbc.ca/webfeed/rss/rss-world" },
+    { "name": "The Hindu", "url": "https://www.thehindu.com/news/international/feeder/default.rss" },
+    { "name": "Euronews", "url": "https://www.euronews.com/rss?format=mrss&level=theme&name=news" },
+    { "name": "UN News", "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml" },
+    { "name": "Washington Post", "url": "https://feeds.washingtonpost.com/rss/world" },
+    { "name": "The Independent", "url": "https://www.independent.co.uk/news/world/rss" },
+    { "name": "Times of India", "url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms" },
+    { "name": "South China Morning Post", "url": "https://www.scmp.com/rss/91/feed" },
+    { "name": "RFI", "url": "https://www.rfi.fr/en/rss" },
+    { "name": "ABC Australia", "url": "https://www.abc.net.au/news/feed/51120/rss.xml" }
+  ]
+}

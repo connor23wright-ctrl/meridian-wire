@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Meridian Wire</title>
+<meta name="description" content="The day's most-reported world news on an interactive globe. Tap a country to read its stories.">
+<meta name="theme-color" content="#0b0d10">
+<style>@font-face{font-family:"Big Shoulders Display";font-weight:600;font-display:swap;src:url(fonts/big-shoulders-display-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Big Shoulders Display";font-weight:800;font-display:swap;src:url(fonts/big-shoulders-display-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:400;font-display:swap;src:url(fonts/ibm-plex-mono-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(fonts/ibm-plex-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:500;font-display:swap;src:url(fonts/ibm-plex-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(fonts/ibm-plex-sans-latin-600-normal.woff2) format("woff2")}
+
+/* Layout: globe stage on the left with the day's top story pinned over it; ranked wire of stories on the right. Stacks on phones. Single dark look by choice. */
+:root{
+  --bg:#0b0d10; --panel:#11151a; --raise:#181d24; --line:#272d36;
+  --fg:#ece8e0; --muted:#8d949e;
+  --accent:#ff8a1f; --accent-dim:#8f531e; --accent-ink:#1a0f04;
+  --globe:#0e1216; --land:#2b313a; --land-edge:#566070;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --gl:max(16px, env(safe-area-inset-left, 0px)); --gr:max(16px, env(safe-area-inset-right, 0px));
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0}
+[hidden]{display:none!important}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--body)}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+
+.app{height:100%;display:flex;flex-direction:column}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding-block:10px;padding-left:var(--gl);padding-right:var(--gr);border-bottom:1px solid var(--line);background:var(--panel)}
+.brand{font:800 26px/1 var(--display);letter-spacing:.04em;text-transform:uppercase}
+.brand span{color:var(--accent)}
+.edition{font:500 12px/1 var(--mono);letter-spacing:.08em;color:var(--muted);font-variant-numeric:tabular-nums}
+.find{margin-left:auto;min-width:0}
+.find input{width:210px;max-width:100%;background:var(--bg);border:1px solid var(--line);border-radius:3px;padding:7px 10px}
+.find input::placeholder{color:var(--muted)}
+
+.main{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 430px}
+.stage{position:relative;min-height:0;overflow:hidden}
+#globe{position:absolute;inset:0;cursor:grab}
+#globe:active{cursor:grabbing}
+.stage-note{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:var(--muted)}
+.hint{position:absolute;top:12px;left:var(--gl);margin:0;font:400 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);pointer-events:none}
+
+.lead{position:absolute;left:var(--gl);bottom:20px;width:min(520px,calc(100% - var(--gl) - 16px));text-align:left;background:color-mix(in srgb,var(--bg) 82%,transparent);border:0;border-top:2px solid var(--accent);padding:14px 16px 16px;cursor:pointer;backdrop-filter:blur(6px)}
+.lead:hover{background:color-mix(in srgb,var(--raise) 92%,transparent)}
+.tag{display:inline-block;background:var(--accent);color:var(--accent-ink);font:600 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;padding:5px 8px}
+.lead h2{margin:10px 0 0;font:800 clamp(26px,3.4vw,40px)/1.02 var(--display);letter-spacing:.01em;text-transform:uppercase;text-wrap:balance}
+.lead .where{margin:8px 0 0;font:600 clamp(18px,2vw,22px)/1.1 var(--display);letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+.lead .from{margin:10px 0 0;font:400 12px/1.4 var(--mono);color:var(--muted)}
+
+.wire{min-height:0;overflow-y:auto;border-left:1px solid var(--line);background:var(--panel);padding-block:18px 32px;padding-left:20px;padding-right:var(--gr)}
+.wire-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:6px}
+.wire h1{margin:0;font:800 30px/1.05 var(--display);letter-spacing:.03em;text-transform:uppercase;text-wrap:balance}
+.count{font:500 12px/1 var(--mono);color:var(--muted);white-space:nowrap}
+.back{background:none;border:1px solid var(--line);border-radius:3px;padding:6px 10px;margin-bottom:14px;cursor:pointer;font:500 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.back:hover{border-color:var(--accent);color:var(--accent)}
+.note{color:var(--muted);margin:10px 0 0;max-width:46ch}
+.stories{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column}
+.story{display:grid;grid-template-columns:30px minmax(0,1fr);gap:0 10px;padding:16px 0;border-top:1px solid var(--line)}
+.rank{font:500 12px/1.9 var(--mono);color:var(--accent);font-variant-numeric:tabular-nums}
+.story h3{margin:0;font:600 16px/1.3 var(--body);text-wrap:balance}
+.story h3 button{all:unset;cursor:pointer}
+.story h3 button:hover{color:var(--accent)}
+.story h3 button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.story.on h3{color:var(--accent)}
+.sum{margin:6px 0 0;color:color-mix(in srgb,var(--fg) 78%,var(--bg))}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{background:var(--raise);border:1px solid var(--line);border-radius:2px;padding:3px 8px;cursor:pointer;font:500 11px/1.5 var(--mono);letter-spacing:.05em;text-transform:uppercase}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.src{margin-top:8px;font:400 12px/1.5 var(--mono);color:var(--muted)}
+.src a{color:var(--fg);text-decoration:underline;text-decoration-color:var(--accent-dim);text-underline-offset:3px}
+.src a:hover{color:var(--accent)}
+
+.tip{font:500 12px/1.3 var(--mono);background:var(--bg);border:1px solid var(--line);padding:5px 8px;color:var(--fg)}
+.tip b{color:var(--accent);font-weight:500}
+
+@media (max-width:860px){
+  .app{height:auto;min-height:100%}
+  .main{display:block}
+  .stage{overflow:visible}
+  #globe{position:relative;inset:auto;height:54svh;min-height:300px}
+  .stage-note{position:relative;min-height:160px}
+  .lead{position:static;display:block;width:auto;margin:0;margin-left:var(--gl);margin-right:var(--gr);margin-bottom:18px;backdrop-filter:none;background:var(--raise)}
+  .wire{overflow:visible;border-left:0;border-top:1px solid var(--line);padding-left:var(--gl)}
+  .find{margin-left:0;flex:1 1 100%}
+  .find input{width:100%}
+}
+
+.watch{background:var(--accent);color:var(--accent-ink);border:0;border-radius:3px;padding:8px 12px;cursor:pointer;font:600 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.watch:hover{filter:brightness(1.1)}
+dialog{background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:16px;width:min(420px,calc(100vw - 32px));max-height:calc(100dvh - 32px)}
+dialog::backdrop{background:rgba(0,0,0,.7)}
+dialog video{display:block;width:100%;max-height:62dvh;background:#000;border-radius:3px}
+.dlg-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+.dlg-head h2{margin:0;font:800 22px/1.1 var(--display);letter-spacing:.03em;text-transform:uppercase}
+.x{background:none;border:1px solid var(--line);border-radius:3px;padding:6px 10px;cursor:pointer;font:500 12px/1 var(--mono)}
+.days{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.days button{background:var(--raise);border:1px solid var(--line);border-radius:2px;padding:5px 8px;cursor:pointer;font:500 11px/1.4 var(--mono)}
+.days button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+.vt{margin:10px 0 0;font:500 14px/1.35 var(--body)}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="bar">
+    <div class="brand">Meridian<span>Wire</span></div>
+    <div class="edition" id="edition">LOADING EDITION</div>
+    <button class="watch" id="watch" type="button" hidden>&#9654; Today&rsquo;s video</button>
+    <div class="find">
+      <label class="sr" for="find">Find a country</label>
+      <input id="find" list="country-list" placeholder="Find a country" autocomplete="off">
+      <datalist id="country-list"></datalist>
+    </div>
+  </header>
+  <main class="main">
+    <section class="stage" aria-label="Globe">
+      <div id="globe"></div>
+      <p class="hint" id="hint">Drag to turn · tap a country</p>
+      <button class="lead" id="lead" type="button" hidden>
+        <span class="tag">Top story today</span>
+        <h2 id="lead-title"></h2>
+        <p class="where" id="lead-where"></p>
+        <p class="from" id="lead-from"></p>
+      </button>
+    </section>
+    <aside class="wire" id="wire" aria-live="polite"></aside>
+  </main>
+</div>
+<dialog id="dlg" aria-labelledby="dlg-title">
+  <div class="dlg-head"><h2 id="dlg-title">Daily video</h2><button class="x" id="dlg-x" type="button">Close</button></div>
+  <video id="vid" controls playsinline preload="metadata"></video>
+  <p class="vt" id="vid-title"></p>
+  <div class="days" id="days"></div>
+</dialog>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="vendor/globe.gl.min.js"></script>
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const C = { globe: css('--globe'), land: css('--land'), edge: css('--land-edge'), dim: css('--accent-dim'), hot: css('--accent') };
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  let features = [];            // country shapes
+  const byKey = new Map();      // key -> feature
+  const byName = new Map();     // lowercase name -> key
+    let stories = [];             // latest edition, ranked
+  let edition = '';
+  let status = 'loading';       // loading | ready | empty | signedout | unreachable
+  let sel = { type: 'world' };  // world | country {key} | story {id}
+  let world = null;
+  let extraNames = {};          // nicer display names sent with the edition
+
+  const keyOf = (f) => (f.id != null ? String(f.id) : 'n:' + f.properties.name);
+  const nameOf = (key) => (byKey.get(key) ? (extraNames[key] || byKey.get(key).properties.name) : null);
+  const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+
+  /* ---------- data ---------- */
+  function storiesFor(key) { return stories.filter((s) => s.countries.includes(key)); }
+  function hotSet() {
+    if (sel.type === 'country') return new Set([sel.key]);
+    if (sel.type === 'story') { const s = stories.find((x) => x.id === sel.id); return new Set(s ? s.countries : []); }
+    return new Set(stories[0] ? stories[0].countries : []);
+  }
+  function coveredSet() { const c = new Set(); stories.forEach((s) => s.countries.forEach((k) => c.add(k))); return c; }
+
+  /* ---------- globe ---------- */
+  function centre(f) {
+    const g = f.geometry; let ring = null;
+    const rings = g.type === 'Polygon' ? [g.coordinates[0]] : g.coordinates.map((p) => p[0]);
+    rings.forEach((r) => { if (!ring || r.length > ring.length) ring = r; });
+    let x = 0, y = 0; ring.forEach((p) => { x += p[0]; y += p[1]; });
+    return { lat: y / ring.length, lng: x / ring.length };
+  }
+  function fly(key) {
+    const f = byKey.get(key); if (!f || !world) return;
+    const c = centre(f);
+    world.controls().autoRotate = false;
+    world.pointOfView({ lat: c.lat, lng: c.lng, altitude: 1.7 }, still ? 0 : 900);
+  }
+  function paint() {
+    if (!world) return;
+    const hot = hotSet(), cov = coveredSet();
+    world
+      .polygonCapColor((f) => { const k = keyOf(f); return hot.has(k) ? C.hot : cov.has(k) ? C.dim : C.land; })
+      .polygonSideColor((f) => (hot.has(keyOf(f)) ? C.dim : C.globe))
+      .polygonAltitude((f) => { const k = keyOf(f); return hot.has(k) ? 0.045 : cov.has(k) ? 0.018 : 0.007; });
+  }
+  function initGlobe() {
+    const box = $('globe');
+    if (typeof Globe === 'undefined' || !features.length) {
+      box.hidden = true; $('hint').hidden = true;
+      $('lead').before(el('p', 'stage-note', 'The globe could not load here. Use the story list or the country search.'));
+      return;
+    }
+    world = new Globe(box, { animateIn: !still })
+      .backgroundColor('rgba(0,0,0,0)')
+      .showAtmosphere(true).atmosphereColor('#7d8794').atmosphereAltitude(0.14)
+      .polygonsData(features)
+      .polygonStrokeColor(() => C.edge)
+      .polygonsTransitionDuration(still ? 0 : 350)
+      .polygonLabel((f) => {
+        const n = storiesFor(keyOf(f)).length;
+        return '<div class="tip">' + f.properties.name.replace(/[<&]/g, '') + (n ? ' · <b>' + n + (n === 1 ? ' story' : ' stories') + '</b>' : '') + '</div>';
+      })
+      .onPolygonClick((f) => choose({ type: 'country', key: keyOf(f) }));
+    const m = world.globeMaterial(); m.color.set(C.globe); if (m.emissive) m.emissive.set('#06080a');
+    const ctl = world.controls(); ctl.autoRotate = !still; ctl.autoRotateSpeed = 0.35; ctl.enablePan = false;
+    box.addEventListener('pointerdown', () => { ctl.autoRotate = false; });
+    world.pointOfView({ lat: 38, lng: 28, altitude: 2.2 }, 0);
+    const size = () => world.width(box.clientWidth).height(box.clientHeight);
+    size(); new ResizeObserver(size).observe(box);
+    paint();
+  }
+
+  /* ---------- selection ---------- */
+  function choose(next) {
+    sel = next;
+    if (next.type === 'country') fly(next.key);
+    if (next.type === 'story') { const s = stories.find((x) => x.id === next.id); if (s && s.countries[0]) fly(s.countries[0]); }
+    render();
+    if (next.type !== 'world') $('wire').scrollTop = 0;
+  }
+
+  /* ---------- wire ---------- */
+  function fmtDate(d) {
+    const t = new Date(d + 'T12:00:00Z');
+    return isNaN(t) ? d : t.toLocaleDateString('en-GB', { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }).toUpperCase();
+  }
+  function storyItem(s) {
+    const li = el('li', 'story' + (sel.type === 'story' && sel.id === s.id ? ' on' : ''));
+    li.append(el('span', 'rank', String(s.rank).padStart(2, '0')));
+    const body = el('div');
+    const h = el('h3'); const b = el('button', null, s.title); b.type = 'button';
+    b.addEventListener('click', () => choose({ type: 'story', id: s.id })); h.append(b);
+    body.append(h, el('p', 'sum', s.summary));
+    const chips = el('div', 'chips');
+    s.countries.forEach((k) => {
+      const n = nameOf(k); if (!n) return;
+      const c = el('button', 'chip', n); c.type = 'button';
+      c.addEventListener('click', () => choose({ type: 'country', key: k })); chips.append(c);
+    });
+    if (chips.children.length) body.append(chips);
+    if (s.sources.length) {
+      const src = el('p', 'src', 'Reported by ');
+      s.sources.forEach((x, i) => {
+        if (i) src.append(', ');
+        const a = el('a', null, String(x.name || 'source')); a.href = x.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; src.append(a);
+      });
+      body.append(src);
+    }
+    li.append(body);
+    return li;
+  }
+  function render() {
+    const wire = $('wire'); wire.textContent = '';
+    $('edition').textContent = edition ? 'EDITION ' + fmtDate(edition) : (status === 'loading' ? 'LOADING EDITION' : 'NO EDITION YET');
+
+    const lead = $('lead'), top = stories[0];
+    lead.hidden = !top;
+    if (top) {
+      $('lead-title').textContent = top.title;
+      $('lead-where').textContent = top.countries.map(nameOf).filter(Boolean).join(' · ');
+      $('lead-from').textContent = top.sources.length ? 'Reported by ' + top.sources.map((x) => x.name).join(', ') : '';
+    }
+
+    if (status !== 'ready') {
+      const msg = {
+        loading: ['Loading stories', 'Fetching today’s edition.'],
+        empty: ['No stories yet', 'Each day’s most-reported stories appear here, pinned to the countries they involve. The first edition has not been filed.'],
+                unreachable: ['Stories can’t be reached', 'The story store is not answering yet. The page keeps trying; nothing needs reloading.']
+      }[status];
+      const head = el('div', 'wire-head'); head.append(el('h1', null, msg[0])); wire.append(head, el('p', 'note', msg[1]));
+      paint(); return;
+    }
+
+    let list = stories, title = 'Top stories', note = 'Ranked by how widely each story is being reported. Lit countries have coverage today.';
+    if (sel.type === 'country') {
+      const n = nameOf(sel.key) || 'This country';
+      list = storiesFor(sel.key); title = n;
+      note = list.length ? '' : 'No story in today’s edition involves ' + n + '. The edition carries the most-reported stories worldwide, so quieter countries can be empty.';
+    } else if (sel.type === 'story') {
+      const s = stories.find((x) => x.id === sel.id);
+      list = s ? [s] : []; title = 'Story'; note = '';
+    }
+    if (sel.type !== 'world') {
+      const back = el('button', 'back', '← All stories'); back.type = 'button';
+      back.addEventListener('click', () => choose({ type: 'world' })); wire.append(back);
+    }
+    const head = el('div', 'wire-head');
+    head.append(el('h1', null, title), el('span', 'count', list.length + (list.length === 1 ? ' story' : ' stories')));
+    wire.append(head);
+    if (note) wire.append(el('p', 'note', note));
+    const ol = el('ol', 'stories'); list.forEach((s) => ol.append(storyItem(s))); wire.append(ol);
+    paint();
+  }
+
+  /* ---------- wiring ---------- */
+  $('lead').addEventListener('click', () => { if (stories[0]) choose({ type: 'story', id: stories[0].id }); });
+  $('find').addEventListener('change', (e) => {
+    const k = byName.get(e.target.value.trim().toLowerCase());
+    if (k) { choose({ type: 'country', key: k }); e.target.value = ''; }
+  });
+
+  render();
+
+  fetch('data/countries-110m.json').then((r) => r.json()).then((topo) => {
+    features = topojson.feature(topo, topo.objects.countries).features.filter((f) => f.properties.name !== 'Antarctica');
+    const dl = $('country-list');
+    features.map((f) => f.properties.name).sort().forEach((n) => { const o = document.createElement('option'); o.value = n; dl.append(o); });
+    features.forEach((f) => { byKey.set(keyOf(f), f); byName.set(f.properties.name.toLowerCase(), keyOf(f)); });
+  }).catch(() => {}).then(() => { initGlobe(); render(); });
+
+  fetch('data/latest.json', { cache: 'no-store' }).then((r) => { if (!r.ok) throw 0; return r.json(); }).then((d) => {
+    extraNames = d.names || {};
+    edition = d.edition || '';
+    stories = (d.stories || []).map((x) => ({
+      id: String(x.id), rank: Number(x.rank) || 999, title: String(x.title || ''), summary: String(x.summary || ''),
+      countries: Array.isArray(x.countries) ? x.countries.map(String) : [],
+      sources: Array.isArray(x.sources) ? x.sources.filter((s) => s && /^https:\/\//.test(s.url)) : []
+    })).filter((x) => x.title).sort((p, q) => p.rank - q.rank);
+    status = stories.length ? 'ready' : 'empty';
+    setupVideos(d.videos || []);
+    render();
+  }).catch(() => { status = 'unreachable'; render(); });
+
+  function setupVideos(list) {
+    list = list.filter((v) => v && /^videos\/[\w.-]+\.mp4$/.test(v.file));
+    if (!list.length) return;
+    const dlg = $('dlg'), vid = $('vid'), days = $('days');
+    const play = (v) => {
+      vid.src = v.file; $('vid-title').textContent = v.title || '';
+      [...days.children].forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.f === v.file)));
+    };
+    list.forEach((v) => { const b = el('button', null, fmtDate(v.edition).slice(5, 11)); b.type = 'button'; b.dataset.f = v.file; b.addEventListener('click', () => play(v)); days.append(b); });
+    days.hidden = list.length < 2;
+    $('watch').hidden = false;
+    $('watch').addEventListener('click', () => { play(list[0]); dlg.showModal(); });
+    $('dlg-x').addEventListener('click', () => dlg.close());
+    dlg.addEventListener('close', () => vid.pause());
+  }
+})();
+</script>
+</body>
+</html>

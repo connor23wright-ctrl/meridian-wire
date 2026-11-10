@@ -1,0 +1,7 @@
+{
+  "name": "meridian-wire",
+  "private": true,
+  "type": "module",
+  "description": "Daily world news globe and one automatic top-story video",
+  "dependencies": { "fast-xml-parser": "^4.5.0" }
+}

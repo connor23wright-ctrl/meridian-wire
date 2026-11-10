@@ -1,0 +1,73 @@
+name: Daily edition
+
+on:
+  schedule:
+    - cron: "17 13 * * *"   # every day at 13:17 UTC (about 5:17 am Pacific)
+  workflow_dispatch:         # adds a "Run workflow" button on the Actions page
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  models: read
+
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install tools
+        run: |
+          npm ci
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y ffmpeg
+          pipx install edge-tts
+      - name: 1. Gather and rank the news
+        run: node pipeline/news.mjs
+      - name: 2. Write summaries and the video script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node pipeline/write.mjs
+      - name: 3. Record the narration
+        run: |
+          edge-tts --voice "$(jq -r .voice config.json)" --file work/narration.txt \
+            --write-media work/voice.mp3 --write-subtitles work/voice.srt \
+            || echo "::warning::The voice service did not answer. Today's video will be silent with captions."
+      - name: 4. Render the video
+        run: node pipeline/render.mjs
+      - name: 5. Update the site data
+        run: node pipeline/finish.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video
+          path: site/videos/*.mp4
+          retention-days: 14
+      - name: Save the edition to the repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/latest.json
+          git commit -m "Edition $(date -u +%F)" || echo "No change"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      - name: 6. Send the video to the social accounts
+        env:
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+        run: node pipeline/post.mjs
