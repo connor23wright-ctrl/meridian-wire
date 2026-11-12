@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   edition:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # pinned: the video renderer does not support newer images yet
     timeout-minutes: 40
     environment:
       name: github-pages
