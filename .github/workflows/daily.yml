@@ -9,7 +9,6 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  models: read
 
 concurrency:
   group: daily-edition
@@ -38,13 +37,23 @@ jobs:
         run: node pipeline/news.mjs
       - name: 2. Write summaries and the video script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node pipeline/write.mjs
       - name: 3. Record the narration
         run: |
-          edge-tts --voice "$(jq -r .voice config.json)" --file work/narration.txt \
-            --write-media work/voice.mp3 --write-subtitles work/voice.srt \
-            || echo "::warning::The voice service did not answer. Today's video will be silent with captions."
+          # First choice: an online voice. If it does not answer, use the voice model that runs right here.
+          if ! edge-tts --voice "$(jq -r .voice config.json)" --file work/narration.txt \
+               --write-media work/voice.mp3 --write-subtitles work/voice.srt 2>/dev/null; then
+            echo "::notice::Online voice unavailable; using the built-in voice instead."
+            rm -f work/voice.mp3 work/voice.srt
+            python3 -m venv work/venv
+            work/venv/bin/pip install -q kokoro-onnx==0.6.1 soundfile
+            base=https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0
+            curl -fsSL -o work/kokoro.onnx "$base/kokoro-v1.0.int8.onnx"
+            curl -fsSL -o work/voices.bin "$base/voices-v1.0.bin"
+            work/venv/bin/python pipeline/voice.py work/kokoro.onnx work/voices.bin "$(jq -r .backupVoice config.json)" \
+              || echo "::warning::No voice could be recorded. Today's video will be silent with captions."
+          fi
       - name: 4. Render the video
         run: node pipeline/render.mjs
       - name: 5. Update the site data

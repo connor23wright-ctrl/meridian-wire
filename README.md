@@ -9,7 +9,7 @@ A world-news globe that updates itself once a day and makes one short vertical v
 
 1. **Gather.** Headlines are pulled from the outlets listed in `config.json`. Headlines about the same event are grouped, and events are ranked by how many different outlets carry them.
 2. **Write.** Each story gets a short neutral summary, and the top story that can be placed on the map gets a headline and a 25-second narration. Every story keeps links to the outlets that reported it.
-3. **Voice.** The narration is read by a synthetic voice.
+3. **Voice.** The narration is read by a synthetic voice. If the online voice doesn't answer, a built-in one is used.
 4. **Render.** The video (1080 x 1920, vertical) is drawn frame by frame: the globe turns to the countries involved and lights them up.
 5. **Publish.** The site gets the new stories and the new video. The last 7 videos stay on the site.
 6. **Post.** If posting is set up, the video goes to your TikTok, YouTube, Instagram and X accounts through Postiz.
@@ -35,6 +35,10 @@ A world-news globe that updates itself once a day and makes one short vertical v
 
 Until that secret exists, the daily run skips posting and everything else still works.
 
+**Better scripts (optional)**
+
+Without this, the site and the video use each outlet's own headline and first sentence. To have Claude write short neutral summaries and a proper 25-second script instead, create an API key at console.anthropic.com (this is billed by use, a few cents a day at most), then add it here as a repository secret named `ANTHROPIC_API_KEY`, the same way as the Postiz key.
+
 ## Approving posts
 
 `config.json` starts with `"postMode": "draft"`. Each day's posts are saved in Postiz as drafts and you publish them there. When you trust the output, open `config.json` here on GitHub, click the pencil, change `"draft"` to `"now"`, and commit. Posts then publish without you.
@@ -47,7 +51,9 @@ Until that secret exists, the daily run skips posting and everything else still 
 | `videoLabel` | The orange tag on the video, for example `TOP STORY`. |
 | `postMode` | `draft` (you approve) or `now` (automatic). |
 | `markAsAiGenerated` | Sets TikTok's AI-generated label on each post. |
-| `voice` | The narration voice. |
+| `voice` | The online narration voice. |
+| `backupVoice` | The built-in voice used when the online one doesn't answer. |
+| `model` | The Claude model that writes the script when an API key is set. |
 | `feeds` | The news outlets that are read. Add or remove lines. |
 
 ## If a run fails

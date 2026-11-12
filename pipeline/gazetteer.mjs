@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 
 const ALIASES = {
-  '840': ['United States', 'U.S.', 'US', 'USA', 'America', 'American', 'Americans', 'Washington', 'White House', 'Pentagon', 'Trump'],
+  '840': ['United States', 'U.S.', 'US', 'USA', 'America', 'American', 'Americans', 'Washington', 'White House', 'Pentagon', 'Trump', 'New York', 'NYC', 'Wall Street', 'California', 'Texas', 'Florida', 'Chicago', 'Los Angeles', 'Capitol Hill', 'Democrats', 'Republicans'],
   '826': ['UK', 'U.K.', 'Britain', 'British', 'England', 'Scotland', 'Wales', 'London', 'Downing Street'],
   '643': ['Russian', 'Russians', 'Moscow', 'Kremlin', 'Putin'],
   '804': ['Ukrainian', 'Ukrainians', 'Kyiv', 'Zelensky', 'Zelenskyy', 'Kharkiv', 'Odesa'],
@@ -100,6 +100,7 @@ const ALIASES = {
 };
 
 const DISPLAY = {
+  '036': 'Australia',
   '840': 'United States', '180': 'DR Congo', '728': 'South Sudan', '140': 'Central African Republic',
   '214': 'Dominican Republic', '070': 'Bosnia and Herzegovina', '226': 'Equatorial Guinea',
   '807': 'North Macedonia', '384': 'Ivory Coast', '748': 'Eswatini', '732': 'Western Sahara', '090': 'Solomon Islands'
@@ -112,7 +113,7 @@ export function loadGazetteer(topoPath) {
   for (const g of topo.objects.countries.geometries) {
     if (g.id == null) continue;
     const id = String(g.id), name = g.properties.name;
-    names[id] = name;
+    if (!names[id]) names[id] = name;
     if (!/\.|Antarctica/.test(name)) terms.push([name, id]);
   }
   for (const [id, list] of Object.entries(ALIASES)) for (const a of list) terms.push([a, id]);

@@ -13,8 +13,14 @@ const STOP = new Set(('the a an and or but of in on at to for from by with as is
   'video watch report reports year years day days week weeks first one two three').split(' '));
 
 const text = (v) => (v == null ? '' : typeof v === 'object' ? text(v['#text'] ?? v['@_href'] ?? '') : String(v));
-const strip = (s) => text(s).replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&apos;|&rsquo;/g, "'")
-  .replace(/&quot;|&ldquo;|&rdquo;/g, '"').replace(/&[a-z]+;/g, ' ').replace(/\s+/g, ' ').trim();
+const NAMED = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', rsquo: "'", lsquo: "'", ldquo: '"', rdquo: '"', ndash: '-', mdash: '-', hellip: '...' };
+const decode = (s) => s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => {
+  if (e[0] !== '#') return NAMED[e.toLowerCase()] ?? ' ';
+  const n = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
+  return n > 31 && n < 0x110000 ? String.fromCodePoint(n) : ' ';
+});
+// Feeds often wrap text in HTML that is itself escaped, so: unescape, drop tags, unescape again.
+const strip = (s) => decode(decode(text(s)).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
 
 export function tokens(title) {
   const out = new Set();
@@ -32,7 +38,7 @@ export function similar(a, b) {
 }
 
 export function parseFeed(xml, outlet) {
-  const doc = new XMLParser({ ignoreAttributes: false, processEntities: true, htmlEntities: true }).parse(xml);
+  const doc = new XMLParser({ ignoreAttributes: false, processEntities: false }).parse(xml);
   const raw = doc?.rss?.channel?.item ?? doc?.['rdf:RDF']?.item ?? doc?.feed?.entry ?? [];
   const items = [];
   for (const it of [].concat(raw)) {
@@ -55,6 +61,19 @@ export function cluster(items, now) {
     if (it.tok.size < 2) continue;
     const g = groups.find((g) => g.items.some((o) => similar(o.tok, it.tok)));
     if (g) g.items.push(it); else groups.push({ items: [it] });
+  }
+  // Second pass: two groups about the same event often use different headline wording.
+  // Compare the words each group's headlines have in common and merge close matches.
+  const core = (g) => {
+    const n = new Map();
+    g.items.forEach((i) => i.tok.forEach((t) => n.set(t, (n.get(t) || 0) + 1)));
+    const need = g.items.length < 3 ? 1 : g.items.length * 0.4;
+    return new Set([...n].filter(([, c]) => c >= need).map(([t]) => t));
+  };
+  for (let a = 0; a < groups.length; a++) {
+    for (let b = groups.length - 1; b > a; b--) {
+      if (similar(core(groups[a]), core(groups[b]))) { groups[a].items.push(...groups[b].items); groups.splice(b, 1); }
+    }
   }
   for (const g of groups) {
     g.outlets = [...new Set(g.items.map((i) => i.outlet))];
