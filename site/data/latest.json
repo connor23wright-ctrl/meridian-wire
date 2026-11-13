@@ -1,159 +1,335 @@
 {
- "edition": "2026-11-12",
- "generated": "2026-11-12T21:44:56.034Z",
+ "edition": "2026-11-13",
+ "generated": "2026-11-13T20:29:40.633Z",
  "names": {
   "156": "China",
   "158": "Taiwan",
+  "250": "France",
   "275": "Palestine",
   "336": "Vatican",
   "344": "Hong Kong",
-  "360": "Indonesia",
+  "348": "Hungary",
+  "356": "India",
   "364": "Iran",
-  "372": "Ireland",
+  "368": "Iraq",
   "376": "Israel",
-  "442": "Luxembourg",
+  "380": "Italy",
+  "400": "Jordan",
+  "404": "Kenya",
+  "458": "Malaysia",
+  "586": "Pakistan",
   "604": "Peru",
+  "634": "Qatar",
   "643": "Russia",
+  "682": "Saudi Arabia",
   "702": "Singapore",
-  "724": "Spain",
   "784": "United Arab Emirates",
   "792": "Turkey",
   "804": "Ukraine",
   "826": "United Kingdom",
   "840": "United States",
-  "036": "Australia"
+  "036": "Australia",
+  "048": "Bahrain"
  },
  "stories": [
   {
-   "id": "2026-11-12-01",
+   "id": "2026-11-13-01",
    "rank": 1,
-   "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-   "summary": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza.",
+   "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+   "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
    "countries": [
-    "275",
-    "376"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html"
-    }
-   ],
-   "outlets": 14
-  },
-  {
-   "id": "2026-11-12-02",
-   "rank": 2,
-   "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
-   "summary": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.",
-   "countries": [
+    "840",
     "156",
-    "840",
     "158",
-    "702",
-    "344"
+    "458",
+    "036"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&amp;at_campaign=rss"
     },
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress?traffic_source=rss"
+     "url": "https://www.aljazeera.com/video/inside-story/2026/11/13/how-will-the-us-deal-with-nvidia-scandal?traffic_source=rss"
     },
     {
      "name": "The Guardian",
-     "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+     "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china"
     },
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/11/world/asia/china-us-nvidia.html"
+     "url": "https://www.nytimes.com/2026/11/12/world/asia/nvidia-ceo-huang-ai-memes.html"
     }
    ],
-   "outlets": 13
+   "outlets": 11
   },
   {
-   "id": "2026-11-12-03",
-   "rank": 3,
-   "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
-   "summary": "US envoy Steve Witkoff says President Putin has agreed to European negotiators joining the next round of Ukraine talks.",
+   "id": "2026-11-13-02",
+   "rank": 2,
+   "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+   "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
    "countries": [
-    "643",
-    "840",
-    "804",
-    "784",
-    "372"
+    "344",
+    "826",
+    "356"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&amp;at_campaign=rss"
     },
     {
      "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink"
+     "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports"
     },
     {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261112-russia-s-vladimir-putin-suggests-no-ukraine-compromise-in-meeting-with-us-envoys"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html"
     },
     {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks"
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/microsoft-outage-friday-activity-9.7420313?cmp=rss"
     }
    ],
    "outlets": 9
   },
   {
-   "id": "2026-11-12-04",
+   "id": "2026-11-13-03",
+   "rank": 3,
+   "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
+   "summary": "Moscow blames Kyiv for a series of car bombings that have targeted people linked to the war with Ukraine.",
+   "countries": [
+    "804",
+    "643",
+    "840",
+    "784",
+    "348"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/13/car-bombings-in-russia-kill-military-officer-injure-ex-ukraine-pm-adviser?traffic_source=rss"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates"
+    },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html"
+    },
+    {
+     "name": "DW",
+     "url": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "outlets": 9
+  },
+  {
+   "id": "2026-11-13-04",
    "rank": 4,
-   "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
-   "summary": "Specialist Thomas Iglesias had shouted at Hegseth's group to be quiet after they could be heard talking and laughing at the Tomb of the Unknown Soldier.",
+   "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+   "summary": "First direct attack on US military installations for months was in response to US airstrike on communications tower Iran’s Islamic Revolutionary Guard Corps says it has targeted and destroyed a US…",
+   "countries": [
+    "840",
+    "364",
+    "048",
+    "634",
+    "586"
+   ],
+   "sources": [
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz"
+    },
+    {
+     "name": "DW",
+     "url": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640?maca=en-rss-en-world-4025-rdf"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/irans-revolutionary-guard-destroyed-us-radar-bahrain-mideast-138102943"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece"
+    }
+   ],
+   "outlets": 5
+  },
+  {
+   "id": "2026-11-13-05",
+   "rank": 5,
+   "title": "Democratic Senate leader Schumer set to face leadership challenge",
+   "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
    "countries": [
     "840"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
      "name": "The Guardian",
-     "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump"
+     "url": "https://www.theguardian.com/us-news/2026/nov/13/democrats-midterms-senate-leader"
     },
     {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/us-defense-secretary-pete-hegseth-reprimanded-at-war-memorial"
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/van-hollen-schumer-senate-leader-b3084383.html"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-13-06",
+   "rank": 6,
+   "title": "Police launch investigation into David Walliams over alleged serious sexual offences",
+   "summary": "Met police say allegations are separate from those made by multiple women in Guardian and ITV investigation The Metropolitan police have launched a criminal investigation into David Walliams over alleged…",
+   "countries": [
+    "826"
+   ],
+   "sources": [
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/uk-police-launch-sex-offense-investigation-childrens-author-138113000"
     },
     {
      "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/us-pentagon-hegseth-arlington-controversy-medal-9.7419227?cmp=rss"
+     "url": "https://www.cbc.ca/news/entertainment/david-walliams-investigation-9.7420901?cmp=rss"
+    },
+    {
+     "name": "ABC Australia",
+     "url": "https://www.abc.net.au/news/2026-11-14/uk-police-launch-investigation-into-david-walliams/107385506"
     }
    ],
-   "outlets": 7
+   "outlets": 4
   },
   {
-   "id": "2026-11-12-05",
-   "rank": 5,
+   "id": "2026-11-13-07",
+   "rank": 7,
+   "title": "At least 24 killed after bus collides with truck in north-east India",
+   "summary": "Several of the deceased are college students, according to local official Atul Bora, but they have not yet been publicly identified.",
+   "countries": [
+    "356"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/bus-truck-collision-indias-assam-state-kills-24-138107488"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3374386/india-road-crash-between-bus-container-truck-kills-23"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-13-08",
+   "rank": 8,
+   "title": "China warns against fresh US chip curbs",
+   "summary": "China has warned the US against imposing additional export controls on AI chips.",
+   "countries": [
+    "156",
+    "840",
+    "702"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/china-us-export-controls-chips-nvidia-huang-scandal/"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374409/bessent-blames-us-commerce-department-not-restricting-nvidia-chip-exports-china"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-13-09",
+   "rank": 9,
+   "title": "Turkiye and Qatar sign mutual defence agreement",
+   "summary": "The pact was signed after ​the President met Qatari Emir Sheikh Tamim ‌‌bin Hamad ​Al Thani in Istanbul on ⁠⁠Friday.",
+   "countries": [
+    "792",
+    "634",
+    "586",
+    "682"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/middle-east/20261113-turkey-and-qatar-pledge-unified-stance-against-attacks-in-mutual-defence-pact"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/turkiye-qatar-sign-mutual-defence-agreement-turkish-presidency-says/article71699542.ece"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-13-10",
+   "rank": 10,
+   "title": "The Peruvian city that has embraced Pope Leo as one of its own",
+   "summary": "Pope Leo XIV is in Peru as part of his Latin America tour, just weeks after having surgery for lung cancer.",
+   "countries": [
+    "336",
+    "604",
+    "840",
+    "380"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/11/13/before-he-was-pope-leo-he-was-their-bishop-now-hes-coming-home/"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/americas/article/3374406/peruvians-flock-mass-pope-leo-city-he-served-bishop"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-13-11",
+   "rank": 11,
    "title": "Trump says \"we don't need a deal with Iran\"",
    "summary": "President Trump says the war with Iran has been won and \"we don't need a deal,\" as Tehran sticks to its demands and continues attacking ships.",
    "countries": [
-    "840",
     "364",
-    "376"
+    "840"
    ],
    "sources": [
     {
@@ -167,387 +343,183 @@
     {
      "name": "Washington Post",
      "url": "https://www.washingtonpost.com/politics/2026/11/12/trump-shuts-down-vance-iran-negotiating-efforts-says-no-deal-needed/"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-vance-iran-deal-corruption-b3084078.html"
     }
    ],
-   "outlets": 6
+   "outlets": 3
   },
   {
-   "id": "2026-11-12-06",
-   "rank": 6,
-   "title": "Indonesia's vice-president resigns amid signs ruling alliance is fraying",
-   "summary": "The news comes at a turbulent time for President Prabowo, who faces a growing rift with his predecessor Joko Widodo.",
+   "id": "2026-11-13-12",
+   "rank": 12,
+   "title": "Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+   "summary": "The Israeli authorities said that Hamas had established a command center at the hospital complex.",
    "countries": [
-    "360"
+    "275",
+    "376"
    ],
    "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&amp;at_campaign=rss"
-    },
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/12/world/asia/indonesia-gibran-vice-president-resign.html"
+     "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html"
     },
     {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/indonesias-vice-president-resigns-eligibility-academic-credentials-questioned-138069107"
-    }
-   ],
-   "outlets": 6
-  },
-  {
-   "id": "2026-11-12-07",
-   "rank": 7,
-   "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-   "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
-   "countries": [
-    "724"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html"
-    },
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/spain-strike-protest-march-housing-costs-9.7418346?cmp=rss"
-    }
-   ],
-   "outlets": 6
-  },
-  {
-   "id": "2026-11-12-08",
-   "rank": 8,
-   "title": "Deadly shooting in Washington DC",
-   "summary": "Police in the US capital are investigating a shooting around a mile from the White House that led to one person killed",
-   "countries": [
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/washington-dc-shooting-logan-circle-near-white-house-people-dead-and-several-injured/article71695104.ece"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/israel-strike-gaza-hospital-kills-several/"
     },
     {
      "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc"
+     "url": "https://www.euronews.com/video/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike"
     }
    ],
-   "outlets": 5
+   "outlets": 3
   },
   {
-   "id": "2026-11-12-09",
-   "rank": 9,
-   "title": "Pope Leo XIV Goes Home to Peru, Meeting Ghosts of His Past",
-   "summary": "In Peru, where Leo XIV lived for two decades and became a citizen, the pope was met by President Keiko Fujimori, whose father’s policies he had protested.",
-   "countries": [
-    "604",
-    "336",
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/11/world/europe/pope-leo-peru-visit-lima.html"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/pope-leo-returns-beloved-former-home-chiclayo-peruvian-138068194"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/video/2026/11/12/peru-pope-leo-xiv-returns-to-his-adopted-homeland-on-historic-visit"
-    },
-    {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/world/2026/11/11/pope-leo-returns-peru-his-adopted-homeland/"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-12-10",
-   "rank": 10,
-   "title": "Iranian men guilty of spying on British journalists",
-   "summary": "Two Iranian men were convicted under Britain's National Security Act for spying on dissident journalists.",
-   "countries": [
-    "364",
-    "826"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iranian-men-guilty-of-spying-on-british-journalists?traffic_source=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/london-court-finds-2-iranian-men-guilty-spying-138075096"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-12-11",
-   "rank": 11,
-   "title": "Australian teen missing in bush for six days rescued alive",
-   "summary": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
+   "id": "2026-11-13-13",
+   "rank": 13,
+   "title": "Boy found alive after 6 days lost in wilderness: \"Grounded for life\"",
+   "summary": "Video shot from the rescue helicopter showed the boy was shirtless and sunburned.",
    "countries": [
     "036"
    ],
    "sources": [
     {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&amp;at_campaign=rss"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/teen-found-alive-6-days-lost-australia-wilderness/"
     },
     {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261112-australia-teen-found-alive-after-six-days-missing-in-bush"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/missing-teen-found-alive-after-6-days-australian-138068466"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/missing-teen-found-australia-9.7418731?cmp=rss"
+     "name": "Times of India",
+     "url": "https://timesofindia.indiatimes.com/world/us/a-6-year-old-boy-with-autism-vanished-into-the-kentucky-woods-and-spent-two-cold-nights-outdoors-until-on-the-third-day-he-walked-out-of-the-brush-onto-a-horse-trail-with-a-small-dog-and-grabbed-his-rescuers-leg/articleshow/135766845.cms"
     }
    ],
-   "outlets": 5
+   "outlets": 2
   },
   {
-   "id": "2026-11-12-12",
-   "rank": 12,
-   "title": "New talks with Russia, Ukraine and European countries agreed, US says - as it happened",
-   "summary": "This blog is now closed Luxembourg’s PM Luc Frieden looks to be absolutely chuffed to be representing all three Benelux countries at today’s summit, as his Belgian and Dutch colleagues are too busy to attend…",
-   "countries": [
-    "804",
-    "643",
-    "840",
-    "784",
-    "442"
-   ],
-   "sources": [
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/12/nx-s1-6037526/former-u-s-ambassador-william-taylor-discusses-the-latest-russia-ukraine-talks"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-prisoners-russia-exchange-peace-talks-b3083557.html"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-12-13",
-   "rank": 13,
-   "title": "Microsoft outage hits tens of thousands of users",
-   "summary": "Microsoft says servers unexpectedly went offline, disrupting Outlook email, Teams, Copilot and other services.",
+   "id": "2026-11-13-14",
+   "rank": 14,
+   "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+   "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
    "countries": [],
    "sources": [
     {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users?traffic_source=rss"
-    },
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/no-emails-no-problem-workers-joke-about-microsoft-outage?traffic_source=rss"
+    }
+   ],
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-13-15",
+   "rank": 15,
+   "title": "Russell Brand accused by 6 women of sexual misconduct, assault following rape conviction",
+   "summary": "Six more women have come forward alleging sexual misconduct and predatory behaviour by ex-comedian Russell Brand, according to an investigation by the U.K.-based The Times, following his conviction on rape and…",
+   "countries": [
+    "826"
+   ],
+   "sources": [
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/microsoft-outlook-down-teams-anthropic-outage-b3084151.html"
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/entertainment/russell-brand-sexual-assault-more-allegations-9.7420884?cmp=rss"
     },
     {
      "name": "ABC Australia",
-     "url": "https://www.abc.net.au/news/2026-11-13/microsoft-outlook-outage/107380958"
+     "url": "https://www.abc.net.au/news/2026-11-14/six-more-women-accuse-russell-brand-of-sexual-offences/107385408"
     }
    ],
-   "outlets": 4
+   "outlets": 2
   },
   {
-   "id": "2026-11-12-14",
-   "rank": 14,
-   "title": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
-   "summary": "Officials say the child was found close to his father's home on Tuesday, a day after he was taken, and is being cared for in hospital.",
-   "countries": [
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/baby-found-buried-alive-south-carolina-9.7418243?cmp=rss"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/12/baby-buried-in-dog-crate-in-us-found-alive-after-24-hours"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374263/us-infant-survives-being-buried-alive-father-charged-attempted-murder"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-12-15",
-   "rank": 15,
-   "title": "New York building collapse: At least 8 people dead as rescuers dig through rubble",
-   "summary": "The collapse cause was under investigation, but NYC buildings commissioner Ahmed Tigani said workers were excavating an empty lot next door for a new building when it fell",
-   "countries": [
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/brooklyn-building-collapse-updates/article71692198.ece"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-victim-identified-death-toll-b3084106.html"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-12-16",
+   "id": "2026-11-13-16",
    "rank": 16,
-   "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-   "summary": "In a state Trump won two years ago by 22 points, Colom's victory extends a string of Democratic wins in the Senate.",
+   "title": "November 13 Paris attacks: Eleven years later, France pays tribute to victims",
+   "summary": "Eleven years on, France pays tribute to the victims of the November 13 attacks.",
    "countries": [
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/mississippi-elects-democrat-scott-colom-as-states-first-black-us-senator-since-reconstruction/article71692151.ece"
-    },
-    {
-     "name": "RFI",
-     "url": "https://www.rfi.fr/en/international/20261112-mississippi-elects-democrat-scott-colom-as-first-black-senator-since-19th-century"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-12-17",
-   "rank": 17,
-   "title": "White House reportedly discussing Howard Lutnick's future as Commerce secretary",
-   "summary": "Senior White House officials are discussing whether ​Commerce Secretary Howard Lutnick should be pushed out in the wake of the spy scandal surrounding Nvidia's now ​former ‌CEO Jensen Huang, two people…",
-   "countries": [
-    "840",
-    "156"
+    "250"
    ],
    "sources": [
     {
      "name": "France 24",
-     "url": "https://www.france24.com/en/white-house-reportedly-discussing-howard-lutnick-s-future-as-commerce-secretary"
+     "url": "https://www.france24.com/en/november-13-paris-attacks-eleven-years-later-france-pays-tribute-to-victims"
     },
     {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-commerce-secretary-howard-lutnick-nvidia-b3084187.html"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say"
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/france/20261113-france-marks-11th-anniversary-of-paris-attacks-with-tribute-at-stade-de-france"
     }
    ],
-   "outlets": 3
+   "outlets": 2
   },
   {
-   "id": "2026-11-12-18",
-   "rank": 18,
-   "title": "Military helicopter crashes in southern Turkey, killing 4",
-   "summary": "The Turkish Defense Ministry says a military helicopter has crashed in southern Turkey, killing four personnel",
+   "id": "2026-11-13-17",
+   "rank": 17,
+   "title": "Criminal investigation opened into Brooklyn building collapse that left 8 dead",
+   "summary": "New York City Mayor Mamdani says that the five main entities involved in the construction site are associated with around 100 other buildings in the city",
    "countries": [
-    "792"
+    "404",
+    "840"
    ],
    "sources": [
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/military-helicopter-crashes-southern-turkey-killing-4-138085371"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/turkiye-samankoy-army-helicopter-crash-personnel-killed/article71695300.ece"
-    },
-    {
      "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/europe/turkey-military-helicopter-crash-samankoy-b3084116.html"
+     "url": "https://www.independent.co.uk/news/world/americas/criminal-investigation-brooklyn-building-collapse-b3084580.html"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses"
     }
    ],
-   "outlets": 3
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-13-18",
+   "rank": 18,
+   "title": "Is Trump’s ‘no-war, no-peace’ plan on Iran sustainable?",
+   "summary": "Despite the U.S. President’s decision to hold off on further strikes, he remains neck-deep in the war he launched alongside Israel’s Netanyahu on February 28 this year",
+   "countries": [
+    "840",
+    "364",
+    "376",
+    "400",
+    "368"
+   ],
+   "sources": [
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/is-trumps-no-war-no-peace-plan-on-iran-sustainable/article71692791.ece"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/politics/2026/11/13/trump-falsely-claims-nobodys-been-killed-iran-war-last-five-months/"
+    }
+   ],
+   "outlets": 2
   }
  ],
  "video": {
-  "edition": "2026-11-12",
-  "file": "videos/2026-11-12.mp4",
-  "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-  "storyId": "2026-11-12-01",
+  "edition": "2026-11-13",
+  "file": "videos/2026-11-13.mp4",
+  "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+  "storyId": "2026-11-13-01",
   "tokens": [
-   "israeli",
-   "strike",
-   "gaza",
-   "hospital",
-   "kill",
-   "six",
-   "palestinian",
-   "health",
-   "ministry"
+   "nvidia",
+   "scandal",
+   "fallout",
+   "widen",
+   "trump",
+   "treasury",
+   "secretary",
+   "blame",
+   "cabinet",
+   "colleague"
   ]
  },
  "videos": [
+  {
+   "edition": "2026-11-13",
+   "file": "videos/2026-11-13.mp4",
+   "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague"
+  },
   {
    "edition": "2026-11-12",
    "file": "videos/2026-11-12.mp4",
