@@ -1,159 +1,105 @@
 {
- "edition": "2026-11-16",
- "generated": "2026-11-16T22:53:51.555Z",
+ "edition": "2026-11-17",
+ "generated": "2026-11-17T21:46:09.696Z",
  "names": {
-  "116": "Cambodia",
   "124": "Canada",
   "156": "China",
-  "208": "Denmark",
-  "250": "France",
+  "275": "Palestine",
   "276": "Germany",
   "300": "Greece",
+  "336": "Vatican",
   "364": "Iran",
   "376": "Israel",
+  "392": "Japan",
   "408": "North Korea",
   "484": "Mexico",
+  "512": "Oman",
+  "528": "Netherlands",
+  "604": "Peru",
+  "608": "Philippines",
+  "634": "Qatar",
   "643": "Russia",
   "646": "Rwanda",
-  "682": "Saudi Arabia",
-  "710": "South Africa",
-  "729": "Sudan",
+  "688": "Serbia",
+  "792": "Turkey",
   "804": "Ukraine",
   "826": "United Kingdom",
   "840": "United States",
-  "887": "Yemen",
-  "040": "Austria",
+  "076": "Brazil",
   "036": "Australia",
-  "056": "Belgium"
+  "068": "Bolivia",
+  "048": "Bahrain",
+  "040": "Austria"
  },
  "stories": [
   {
-   "id": "2026-11-16-01",
+   "id": "2026-11-17-01",
    "rank": 1,
-   "title": "Trump denies responsibility for FAA nationwide ground stop",
-   "summary": "Trump denies responsibility for FAA nationwide ground stop",
-   "countries": [
-    "643",
-    "840",
-    "156",
-    "408",
-    "804"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-denies-responsibility-for-faa-nationwide-ground-stop?traffic_source=rss"
-    },
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/16/g-s1-153841/up-first-newsletter-faa-ground-stop-democratic-leaders-congress-trump-asia-trip"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/trump-faa-ground-stop-9.7422814?cmp=rss"
-    }
-   ],
-   "outlets": 8
-  },
-  {
-   "id": "2026-11-16-02",
-   "rank": 2,
-   "title": "Five EU countries announce migrant deportation centre in Rwanda",
-   "summary": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
-   "countries": [
-    "646",
-    "276",
-    "208",
-    "040",
-    "300"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/16/five-eu-countries-announce-plan-to-send-rejected-asylum-seekers-to-rwanda?traffic_source=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/16/world/europe/deport-rwanda-asylum-migration.html"
-    }
-   ],
-   "outlets": 6
-  },
-  {
-   "id": "2026-11-16-03",
-   "rank": 3,
-   "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-   "summary": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
+   "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+   "summary": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
    "countries": [
     "643",
     "804",
-    "250"
+    "840",
+    "156"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
      "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea"
+     "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis"
     },
     {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/ukraine-russia-drone-attacks-9.7423256?cmp=rss"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/17/world/europe/ukraine-kyiv-russia-kerch-bridge-crimea.html"
     },
     {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/ukraine-hits-russias-crimea-bridge-in-1300-drone-barrage/article71707251.ece"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war"
     }
    ],
-   "outlets": 6
+   "outlets": 9
   },
   {
-   "id": "2026-11-16-04",
-   "rank": 4,
-   "title": "Lindsay Clancy to face retrial next year for deaths of her three children",
-   "summary": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
+   "id": "2026-11-17-02",
+   "rank": 2,
+   "title": "Will President Trump meet Kim Jong Un?",
+   "summary": "President Trump says he would be keen to meet the North Korea leader in China.",
    "countries": [
-    "840"
+    "840",
+    "643",
+    "156",
+    "076",
+    "408"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/lindsay-clancy-retrial-date-set-over-killing-of-her-three-children-13612927"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/17/world/asia/trump-manila-asean-late.html"
     },
     {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/lindsay-clancy-court-trial-9.7423387?cmp=rss"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/video/20261117-calls-for-cooperation-as-asean-summit-awaits-trump"
     },
     {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-trial-date-retrial-hearing-b3085782.html"
+     "name": "DW",
+     "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-rdf"
     }
    ],
-   "outlets": 6
+   "outlets": 9
   },
   {
-   "id": "2026-11-16-05",
-   "rank": 5,
-   "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-   "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+   "id": "2026-11-17-03",
+   "rank": 3,
+   "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+   "summary": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.",
    "countries": [
     "840",
     "156"
@@ -161,153 +107,363 @@
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss"
+     "url": "https://www.aljazeera.com/economy/2026/11/17/jensen-huang-to-testify-before-us-house-committees-next-month?traffic_source=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/tv-shows/business/20261117-jensen-huang-says-he-d-be-honoured-to-return-to-nvidia-as-ceo"
     },
     {
      "name": "CBC",
-     "url": "https://www.cbc.ca/news/business/nvidia-ceo-huang-calls-reinstatements-9.7423555?cmp=rss"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/trump-says-would-not-mind-huang-being-reinstated-at-nvidia/article71709259.ece"
+     "url": "https://www.cbc.ca/news/business/jensen-huang-congress-nvidia-exports-9.7424742?cmp=rss"
     }
    ],
-   "outlets": 5
+   "outlets": 7
   },
   {
-   "id": "2026-11-16-06",
-   "rank": 6,
-   "title": "Gérard Depardieu drops appeal against sexual assault conviction",
-   "summary": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
+   "id": "2026-11-17-04",
+   "rank": 4,
+   "title": "Trump in Asia ahead of talks with Russian and Chinese presidents",
+   "summary": "The US president said he would be open to a one-on-one meeting with Russia's Vladimir Putin \"if it's available\".",
    "countries": [
-    "250"
+    "840",
+    "608",
+    "643",
+    "156",
+    "364"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/film/2026/nov/16/gerard-depardieu-drops-appeal-against-sexual-assault-conviction"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/17/world/asia/president-trump-visits-asia.html"
     },
     {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines"
     },
     {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/entertainment/depardieu-sexual-assault-conviction-appeal-withdrawn-9.7423721?cmp=rss"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/video/trump-arrives-in-the-philippines-amid-protests/"
     }
    ],
-   "outlets": 5
+   "outlets": 7
   },
   {
-   "id": "2026-11-16-07",
-   "rank": 7,
-   "title": "Australian MP who lost her legs in alleged attack speaks on leaving hospital",
-   "summary": "Helen Haines, the Australian politician who lost both legs after an alleged attack, has said she is \"full of gratitude\" upon leaving hospital.",
+   "id": "2026-11-17-05",
+   "rank": 5,
+   "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+   "summary": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
    "countries": [
+    "275",
+    "376",
+    "826",
     "036"
    ],
    "sources": [
     {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/australian-mp-helen-haines-first-words-since-leaving-hospital-13612681"
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/injured-australian-lawmaker-helen-haines-leaves-hospital-after-138170480"
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_uk-sanctions-eight-israeli-settlement-firms-171126?traffic_source=rss"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/nov/18/australia-sanctions-construction-company-west-bank-settlement-expansion-ntwnfb"
     },
     {
      "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/helen-haines-australia-mp-9.7423190?cmp=rss"
+     "url": "https://www.cbc.ca/news/world/united-kingdom-israel-west-bank-construction-companies-settlements-9.7425375?cmp=rss"
+    }
+   ],
+   "outlets": 6
+  },
+  {
+   "id": "2026-11-17-06",
+   "rank": 6,
+   "title": "US loses measles elimination status after 26 years amid record case numbers",
+   "summary": "States have reported over 5,400 cases and 10 measles-related deaths for the first time since the early 1990s.",
+   "countries": [
+    "840",
+    "484",
+    "068",
+    "124"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/16/australian-mp-helen-haines-leaves-hospital-after-losing-both-legs-in-alleged-car-attack"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/americas/20261117-us-mexico-and-bolivia-lose-measles-free-status-as-deaths-mount"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/health/u-s-loses-measles-elimination-status-9.7425114?cmp=rss"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/us-loses-measles-elimination-status-outbreak-vaccine-b3086570.html"
+    }
+   ],
+   "outlets": 6
+  },
+  {
+   "id": "2026-11-17-07",
+   "rank": 7,
+   "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
+   "summary": "The PM has suggested Chinese automakers could replace American ones in Canada - but some say that would not be easy.",
+   "countries": [
+    "124",
+    "156",
+    "840"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/17/china-canada-expand-tariff-relief-after-carney-xi-meeting?traffic_source=rss"
+    },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/17/world/canada/carney-china-xi-trade-apec.html"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/xi-carney-call-for-deeper-ties-as-canada-looks-beyond-us-for-trade/article71710632.ece"
     }
    ],
    "outlets": 5
   },
   {
-   "id": "2026-11-16-08",
+   "id": "2026-11-17-08",
    "rank": 8,
-   "title": "When will we see Robert Pattinson as Bond in cinemas?",
-   "summary": "Robert Pattinson has been announced as the next James Bond, becoming the seventh actor to take up the mantle of 007.",
+   "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "summary": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
    "countries": [
-    "826"
+    "840",
+    "826",
+    "643",
+    "392"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond?traffic_source=rss"
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/uk-news/2026/nov/17/american-soldier-brandon-carroll-tyner-spying-us-military-custody"
     },
     {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261116-robert-pattinson-british-actor-will-be-the-next-james-bond"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/american-soldier-spying-suspect-russia-united-kingdom-us-custody/"
     },
     {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374641/robert-pattinson-named-7th-james-bond-taking-over-daniel-craig"
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/asia/japan/russia-japan-journalist-arrest-spying-b3086164.html"
     }
    ],
    "outlets": 4
   },
   {
-   "id": "2026-11-16-09",
+   "id": "2026-11-17-09",
    "rank": 9,
-   "title": "Thousands report difficulties accessing accounts online at major US banks",
-   "summary": "Customers report online access issues at major US banks, including Chase, Wells Fargo, and Bank of America.",
+   "title": "Iran launches a third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet",
+   "summary": "Iran fired drones on Tuesday at a U.S.",
    "countries": [
+    "364",
+    "840",
+    "048",
+    "634",
+    "512"
+   ],
+   "sources": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/iran-targets-bahrain-slams-fabricated-dirty-bomb-report/article71713177.ece"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/iran-tehran-donald-trump-persian-gulf-washington-b3086270.html"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3374775/iran-fires-drones-us-military-radar-system-bahrain-amid-gulf-tensions"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-17-10",
+   "rank": 10,
+   "title": "Pope Leo hit by flying rosary while waving to crowds in Peru",
+   "summary": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
+   "countries": [
+    "336",
+    "604",
     "840"
    ],
    "sources": [
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks?traffic_source=rss"
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/videos/ckpdwn23j5j8o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/pope-forgives-person-nailed-eye-rosary-peru-138202302"
     },
     {
      "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/customers-at-some-of-the-us-largest-banks-are-reporting-difficulty-accessing-accounts-online/article71709556.ece"
+     "url": "https://www.thehindu.com/news/international/pope-leo-misses-the-catch-as-rosary-from-crowd-hits-his-eye-in-peru/article71710583.ece"
     },
     {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services"
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/11/17/pope-leo-forgives-person-who-hit-him-eye-with-rosary-peru/"
     }
    ],
    "outlets": 4
   },
   {
-   "id": "2026-11-16-10",
-   "rank": 10,
-   "title": "Miguel Ángel Félix Gallardo, Mexican Drug Lord, Dies in Prison",
-   "summary": "Miguel Ángel Félix Gallardo, who helped build the foundations of modern-day drug empires, was the subject of a major U.S.",
+   "id": "2026-11-17-11",
+   "rank": 11,
+   "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+   "summary": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
+   "countries": [
+    "840",
+    "364"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-dirty-bomb-plot-washington-trump-b3086216.html"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-17-12",
+   "rank": 12,
+   "title": "Five European Countries Plan to Deport Migrants to Rwanda",
+   "summary": "Germany, Austria, the Netherlands, Greece and Denmark are seeking to establish a hub for rejected asylum seekers.",
+   "countries": [
+    "646",
+    "276",
+    "040",
+    "528",
+    "300"
+   ],
+   "sources": [
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/16/world/europe/deport-rwanda-asylum-migration.html"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/rwanda-deportation-hub-european-countries-9.7423753?cmp=rss"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/11/16/five-european-countries-agree-deport-rejected-asylum-seekers-rwanda/"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/rwanda-asylum-seekers-migrants-eu-uk-b3086442.html"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-17-13",
+   "rank": 13,
+   "title": "Russian military plane crashes killing all 19 on board",
+   "summary": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+   "countries": [
+    "643",
+    "804",
+    "688"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-17-14",
+   "rank": 14,
+   "title": "Japan urges creation of an Asian energy framework to counter oil crises",
+   "summary": "Japanese Prime Minister Sanae Takaichi has proposed the creation of an Asian energy agency to help countries in the region cope with oil crises, such as the shocks from the Iran war",
+   "countries": [
+    "392",
+    "364",
+    "608"
+   ],
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/japan-urges-creation-asian-energy-framework-counter-oil-138202916"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/japan-offers-asean-nations-access-to-energy-storage/article71711080.ece"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/asia/east-asia/article/3374776/japan-offers-asean-access-crude-oil-storage-counter-energy-crises"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-17-15",
+   "rank": 15,
+   "title": "Mexican drug kingpin Félix Gallardo, founder of Guadalajara cartel, dies at 80",
+   "summary": "Gallardo, nicknamed the \"Boss of Bosses,\" died of multiple organ failure.",
    "countries": [
     "484",
     "840"
    ],
    "sources": [
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/15/world/americas/felix-gallardo-mexico-dead.html"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/miguel-angel-felix-gallardo-dies-drug-lord-behind-us-agent-murder-age-80/"
-    },
     {
      "name": "ABC News",
      "url": "https://abcnews.com/International/wireStory/mexican-drug-kingpin-flix-gallardo-founder-guadalajara-cartel-138183861"
@@ -315,245 +471,97 @@
     {
      "name": "Washington Post",
      "url": "https://www.washingtonpost.com/world/2026/11/16/mexican-drug-kingpin-depicted-narcos-dies-prison/"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/drug-lord-miguel-angel-felix-gallardo-dies-b3086191.html"
     }
    ],
-   "outlets": 4
+   "outlets": 3
   },
   {
-   "id": "2026-11-16-11",
-   "rank": 11,
-   "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
-   "summary": "Move comes as government forces withdraw from Red Sea coast to halt Houthi approach to interim capital Aden.",
+   "id": "2026-11-17-16",
+   "rank": 16,
+   "title": "NSA attributes US network outage to routine ‘maintenance’ activities",
+   "summary": "Recent outage at NSA follows a series of unexplained disruptions across US communication and transportation services.",
    "countries": [
-    "887",
-    "682",
-    "364",
     "840"
    ],
    "sources": [
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis?traffic_source=rss"
+     "url": "https://www.aljazeera.com/news/2026/11/17/nsas-classified-internal-communications-network-reportedly-faces-outage?traffic_source=rss"
     },
     {
      "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis"
-    },
+     "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates"
+    }
+   ],
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-17-17",
+   "rank": 17,
+   "title": "Nabeel Rajab, Bahraini Human Rights Activist, Dies at 62",
+   "summary": "Mr. Rajab spent his life fighting for greater political freedoms in his home country, undeterred by years in prison.",
+   "countries": [],
+   "sources": [
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html"
+     "url": "https://www.nytimes.com/2026/11/17/world/middleeast/nabeel-rajab-bahrain-dies.html"
     },
     {
      "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/after-yemen-setback-saudi-arabia-replaces-military-commander/article71709122.ece"
+     "url": "https://www.thehindu.com/news/international/nabeel-rajab-prominent-bahraini-human-rights-activist-dies-at-62/article71713180.ece"
     }
    ],
-   "outlets": 4
+   "outlets": 2
   },
   {
-   "id": "2026-11-16-12",
-   "rank": 12,
-   "title": "Nvidia scandal: China's chips dilemma, US rivalry shape AI race",
-   "summary": "The controversy surrounding Nvidia and its former CEO Jensen Huang has put a spotlight on the intensifying AI race between the US and China.",
-   "countries": [
-    "840",
-    "156"
-   ],
-   "sources": [
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/us-to-further-curb-chinas-access-to-ai-chips-from-companies-like-nvidia-13612884"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/us-china-ai-nvidia-9.7423734?cmp=rss"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/china/diplomacy/article/3374513/nvidia-scandal-ai-anger-beijings-mockery-7-us-china-relations-reads"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-16-13",
-   "rank": 13,
-   "title": "Two mass shootings in South Africa leave 17 dead",
-   "summary": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
-   "countries": [
-    "710"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/at-least-17-people-killed-in-two-separate-shootings-in-south-africa-13612711"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/south-africa-police-probe-two-weekend-shootings-that-left-17-dead/article71707200.ece"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/africa/south-africa-mass-shootings-jeffsville-pietermaritzburg-b3085492.html"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-16-14",
-   "rank": 14,
-   "title": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
-   "summary": "Ahead of Apec summit, PM says ‘Canada is going to move forward either way’ when asked if Chinese investment was leverage in US negotiations The prime minister of Canada, Mark Carney, said the country could…",
-   "countries": [
-    "840",
-    "156",
-    "124",
-    "116"
-   ],
-   "sources": [
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/carney-canada-turn-chinese-automakers-trump-trade-talks-138168098"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/politics/canada-china-carney-auto-9.7423156?cmp=rss"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/carney-says-canada-could-turn-to-chinese-automakers-if-trump-trade-talks-fail/article71706703.ece"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-16-15",
-   "rank": 15,
-   "title": "Third US aircraft carrier brings thousands more troops to Middle East",
-   "summary": "The US president oscillates between strike threats on Iran and insisting the war ‘militarily is effectively over’ A third US aircraft carrier has arrived in the Middle East, US Central Command said in a social…",
-   "countries": [
-    "840",
-    "364"
-   ],
-   "sources": [
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/third-american-aircraft-carrier-arrives-in-west-asia-as-trump-keeps-options-open-in-iran-war/article71709128.ece"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/uss-theodore-roosevelt-aircraft-carrier-iran-war-trump-b3085823.html"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-16-16",
-   "rank": 16,
-   "title": "Sudanese army air attack kills 13 in western Sudan: Rights group",
-   "summary": "'Preliminary monitoring' shows women and children killed, homes destroyed in West Kordofan, says Emergency Lawyers.",
-   "countries": [
-    "729"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/16/sudanese-army-air-attack-kills-13-in-western-sudan-rights-group?traffic_source=rss"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/army-airstrike-kills-13-west-kordofan-rights-group-138185316"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/sudan-army-strike-kills-15-including-children-says-rights-group-survivor/article71707212.ece"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-16-17",
-   "rank": 17,
-   "title": "Israeli opposition accuses Netanyahu of attempted ‘coup’",
-   "summary": "Rivals call for investigation into reports that PM's office tried to frame Arab parties.",
-   "countries": [
-    "376"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup?traffic_source=rss"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup/article71709115.ece"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/16/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-16-18",
+   "id": "2026-11-17-18",
    "rank": 18,
-   "title": "EU accuses Russia of stalling Ukraine peace talks to target power plants as winter nears",
-   "summary": "The bloc imposed sanctions on nearly 50 Russian banks, financial institutions.",
+   "title": "Tensions rise over draft climate deal at COP31",
+   "summary": "Publication of the IPCC’s seventh assessment report becomes a sticking point at UN climate talks",
    "countries": [
-    "643",
-    "804",
-    "056"
+    "792"
    ],
    "sources": [
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/eu-accuses-russia-stalling-ukraine-peace-talks-target-138172402"
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31?traffic_source=rss"
     },
     {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/eu-accuses-russia-of-stalling-ukraine-peace-talks-to-target-power-plants-as-winter-nears/article71707737.ece"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-kaja-kallas-brussels-europe-b3085569.html"
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/international/20261116-cop31-negotiators-unveil-draft-deal-as-fossil-fuel-divisions-persist"
     }
    ],
-   "outlets": 3
+   "outlets": 2
   }
  ],
  "video": {
-  "edition": "2026-11-16",
-  "file": "videos/2026-11-16.mp4",
-  "title": "Trump denies responsibility for FAA nationwide ground stop",
-  "storyId": "2026-11-16-01",
+  "edition": "2026-11-17",
+  "file": "videos/2026-11-17.mp4",
+  "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+  "storyId": "2026-11-17-01",
   "tokens": [
-   "trump",
-   "denie",
-   "responsibility",
-   "faa",
-   "nationwide",
-   "ground",
-   "stop"
+   "putin",
+   "crimean",
+   "bridge",
+   "partly",
+   "collapse",
+   "zelensky",
+   "hail",
+   "unprecedented",
+   "attack",
+   "ukraine"
   ]
  },
  "videos": [
+  {
+   "edition": "2026-11-17",
+   "file": "videos/2026-11-17.mp4",
+   "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine"
+  },
   {
    "edition": "2026-11-16",
    "file": "videos/2026-11-16.mp4",
