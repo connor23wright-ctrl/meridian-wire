@@ -1,228 +1,73 @@
 {
- "edition": "2026-11-20",
- "generated": "2026-11-20T21:04:49.039Z",
+ "edition": "2026-11-21",
+ "generated": "2026-11-21T20:06:37.004Z",
  "names": {
-  "104": "Myanmar",
-  "124": "Canada",
   "156": "China",
-  "233": "Estonia",
+  "208": "Denmark",
+  "246": "Finland",
   "250": "France",
   "275": "Palestine",
+  "276": "Germany",
   "356": "India",
   "364": "Iran",
   "376": "Israel",
   "380": "Italy",
-  "524": "Nepal",
-  "528": "Netherlands",
+  "484": "Mexico",
+  "591": "Panama",
   "616": "Poland",
   "643": "Russia",
-  "724": "Spain",
+  "682": "Saudi Arabia",
+  "756": "Switzerland",
+  "764": "Thailand",
   "792": "Turkey",
   "804": "Ukraine",
   "826": "United Kingdom",
+  "832": "Jersey",
   "840": "United States",
-  "050": "Bangladesh",
-  "056": "Belgium",
+  "887": "Yemen",
   "036": "Australia"
  },
  "stories": [
   {
-   "id": "2026-11-20-01",
+   "id": "2026-11-21-01",
    "rank": 1,
-   "title": "What are the implications of the ICJ Rohingya genocide ruling?",
-   "summary": "Verdict against Myanmar may have implications for Israel's genocide in Gaza.",
+   "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+   "summary": "Mexican forces arrested Chapo Isidro in Sinaloa.",
    "countries": [
-    "104",
-    "376",
-    "275",
-    "050",
-    "528"
+    "484",
+    "840"
    ],
    "sources": [
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/inside-story/2026/11/20/what-are-the-implications-of-the-icj-rohingya-genocide-ruling?traffic_source=rss"
+     "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss"
     },
     {
      "name": "The Guardian",
-     "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling"
+     "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested"
     },
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261120-friends-but-who-benefits-notes-from-an-historic-summit-myanmar-s-genocide-ruling-time-to-bre-join-the-eu"
-    }
-   ],
-   "outlets": 9
-  },
-  {
-   "id": "2026-11-20-02",
-   "rank": 2,
-   "title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
-   "summary": "Trump, Putin and Xi have issued a \"joint declaration of peace\" after historical trilateral talks, but what did they get out of meeting?",
-   "countries": [
-    "840",
-    "643",
-    "156",
-    "804",
-    "616"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/20/world/europe/putin-trump-xi-summit-apec.html"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/video/trump-calls-putin-his-friend-at-summit-prompting-backlash-from-some-world-leaders/"
-    }
-   ],
-   "outlets": 8
-  },
-  {
-   "id": "2026-11-20-03",
-   "rank": 3,
-   "title": "Trump Flaunts Camaraderie With Xi and Putin but Has Little to Show for It",
-   "summary": "President Trump called Russia’s leader his “friend” and marveled at China’s warm welcome for his first-ever trilateral summit.",
-   "countries": [
-    "840",
-    "643",
-    "156",
-    "364",
-    "804"
-   ],
-   "sources": [
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin.html"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin"
+     "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html"
     },
     {
      "name": "NPR",
-     "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained"
     }
    ],
-   "outlets": 6
+   "outlets": 10
   },
   {
-   "id": "2026-11-20-04",
-   "rank": 4,
-   "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-   "summary": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-   "countries": [
-    "804",
-    "643",
-    "616",
-    "156",
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261120-russia-pummels-ukraine-with-massive-strikes-missile-hits-poland"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/video/2026/11/20/ukraine-rescue-teams-search-wreckage-after-deadly-russian-strike-on-kyiv"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-20-05",
-   "rank": 5,
-   "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-   "summary": "Nikhil Gupta pleaded guilty to murder-for-hire, conspiracy to commit murder-for-hire, and conspiracy to commit money laundering in February.",
-   "countries": [
-    "840",
-    "356",
-    "124"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/20/indian-man-sentenced-to-19-years-in-us-sikh-separatist-assassination-plot?traffic_source=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/sikh-nikhil-gupta-hitman-b3088957.html"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-20-06",
-   "rank": 6,
-   "title": "White House removes cyber-security chief after series of tech outages",
-   "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
-   "countries": [
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/white-house-fires-cybersecurity-chief-after-widespread-outages/article71722952.ece"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/20/white-house-national-cyber-director-fired-after-wave-of-tech-outages"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-20-07",
-   "rank": 7,
+   "id": "2026-11-21-02",
+   "rank": 2,
    "title": "Cost of living protests sweep across Europe",
    "summary": "Thousands marched across European cities on Friday to protest against the cost of living and other issues.",
    "countries": [
-    "724",
     "250",
     "380",
-    "826",
-    "056"
+    "276",
+    "764",
+    "356"
    ],
    "sources": [
     {
@@ -230,317 +75,483 @@
      "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/20/protests-held-across-europe-over-wages-services-high-living-costs?traffic_source=rss"
-    },
-    {
      "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain"
+     "url": "https://www.france24.com/en/new-day-of-protests-across-france"
     },
     {
-     "name": "RFI",
-     "url": "https://www.rfi.fr/en/international/20261120-protesters-join-forces-across-europe-against-high-living-costs"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/italy-strike-draws-workers-students-nationwide-protests-wages-138314660"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/italian-workers-students-protest-over-wages-and-public-services/article71725539.ece"
     }
    ],
-   "outlets": 5
+   "outlets": 7
   },
   {
-   "id": "2026-11-20-08",
-   "rank": 8,
-   "title": "COP31 wrapping up in Turkey: Climate deal elusive as fossil fuels go unmentioned",
-   "summary": "The UN's COP31 climate talks were set to spill into overtime Friday as countries remained deadlocked over a draft deal that makes no mention of fossil fuels, with a host of other disputes also snarling…",
+   "id": "2026-11-21-03",
+   "rank": 3,
+   "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+   "summary": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was…",
    "countries": [
-    "792",
-    "524",
-    "840",
-    "036"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261120-cop31-wrapping-up-in-turkey-climate-deal-elusive-as-fossil-fuels-go-unmentioned"
-    },
-    {
-     "name": "UN News",
-     "url": "https://news.un.org/feed/view/en/story/2026/11/1168845"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/climate-change/news/cop31-turkey-fossil-fuel-transition-b3088614.html"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/article/3375291/cop31-climate-talks-go-overtime-nations-quarrel-over-fossil-fuels"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-20-09",
-   "rank": 9,
-   "title": "How did Anthropic's stock market debut unfold?",
-   "summary": "The BBC's Samira Hussain breaks down the AI company's first day as a publicly traded company, as shares closed up 17%.",
-   "countries": [
+    "208",
+    "643",
+    "804",
     "840"
    ],
    "sources": [
     {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&amp;at_campaign=rss"
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing"
     },
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/20/world/europe/denmark-russia-ukraine-rapper-assassination.html"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/europe/20261121-unacceptable-eu-chief-condemns-alleged-russian-plot-to-kill-us-ukrainian-citizen"
     },
     {
      "name": "Sky News",
-     "url": "https://news.sky.com/story/anthropic-among-big-fallers-in-global-stock-market-rout-13614361"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/business/markets/ai-firm-anthropic-shares-wall-streets-nasdaq-debut/article71721723.ece"
+     "url": "https://news.sky.com/story/denmark-says-it-thwarted-russian-plot-to-kill-us-ukrainian-rapper-kyivstoner-13614604"
     }
    ],
-   "outlets": 5
+   "outlets": 6
   },
   {
-   "id": "2026-11-20-10",
-   "rank": 10,
-   "title": "From premature baby to social media star - Famed hippo Fiona dies",
-   "summary": "The beloved hippopotamus died days after swallowing a knitted hat that accidentally got into her enclosure at the Cincinnati Zoo.",
+   "id": "2026-11-21-04",
+   "rank": 4,
+   "title": "What we know about the latest Russian missile strikes on Ukraine",
+   "summary": "Russia struck bridges and railway stations in the capital Kyiv in a major attack.",
    "countries": [
+    "804",
+    "643",
+    "616",
     "840"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/russia-ukraine-zelenskyy-hometown-9.7431164?cmp=rss"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/ballistic-missile-attack-on-zelenskyys-hometown-kills-2/article71729235.ece"
+    }
+   ],
+   "outlets": 6
+  },
+  {
+   "id": "2026-11-21-05",
+   "rank": 5,
+   "title": "French police officers sentenced for beating of music producer Michel Zecler",
+   "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
+   "countries": [
+    "250"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/20/world/europe/france-police-brutality-black-producer.html"
     },
     {
      "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261120-%F0%9F%A6%9B-usa-fiona-cincinnati-zoo-s-famous-hippo-has-died"
+     "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault"
     },
     {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/20/fiona-the-hippo-dies-after-swallowing-a-visitors-hat"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/fiona-hippo-cincinnati-zoo-death-memorial-b3088722.html"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/black-music-producers-lawyer-hails-landmark-ruling-french-138340923"
     }
    ],
-   "outlets": 4
+   "outlets": 5
   },
   {
-   "id": "2026-11-20-11",
-   "rank": 11,
-   "title": "Russia complains of ‘new Iron Curtain’ as Estonia shuts its borders",
-   "summary": "Tallinn's decision to shut road border crossings comes after an attack on a drone manufacturer.",
+   "id": "2026-11-21-06",
+   "rank": 6,
+   "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+   "summary": "Three Palestinians were killed in an Israeli air attack on a vehicle carrying food.",
    "countries": [
-    "643",
-    "233"
+    "376",
+    "275",
+    "036",
+    "826",
+    "616"
    ],
    "sources": [
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/20/russia-complains-of-new-iron-curtain-as-estonia-shuts-its-borders?traffic_source=rss"
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/israel-strike-gaza-aid-vehicle-9.7431224?cmp=rss"
     },
     {
      "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/estonia-to-close-border-with-russia-moscow-decries-new-iron-curtain/article71725791.ece"
+     "url": "https://www.thehindu.com/news/international/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say/article71729327.ece"
     },
     {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/europe/article/3375264/estonia-close-border-russia-least-6-months-over-foiled-sabotage"
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/middle-east/world-central-kitchen-gaza-strike-b3089195.html"
     }
    ],
    "outlets": 4
   },
   {
-   "id": "2026-11-20-12",
-   "rank": 12,
-   "title": "Zohran Mamdani unveils plan to close New York’s Rikers Island jail by 2032",
-   "summary": "The plan would replace the jail complex with four smaller jails and reduce the number of people behind bars.",
+   "id": "2026-11-21-07",
+   "rank": 7,
+   "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+   "summary": "U.N. talks in Geneva have failed to deliver binding rules on autonomous weapons, as humanitarian groups warn that military AI is advancing far faster than diplomacy.",
    "countries": [
+    "643",
+    "756",
+    "840",
+    "376"
+   ],
+   "sources": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/states-agree-toun-talks-aiming-to-regulate-killer-robots-by-2028/article71729173.ece"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/un-talks-killer-robots-weapons-russia-b3089057.html"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/europe/article/3375318/un-talks-pledge-draft-killer-robot-rules-2028-after-russian-pushback"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-21-08",
+   "rank": 8,
+   "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+   "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+   "countries": [
+    "484",
     "840"
    ],
    "sources": [
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/20/mamdani-unveils-plan-to-close-new-yorks-rikers-island-by-2032?traffic_source=rss"
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/mamdani-rikers-island-jail-closing-b3088549.html"
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/mexico-drug-kingpin-arrest-fausto-isidro-meza-flores-sinaloa/"
     },
     {
      "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375293/mamdani-unveils-plan-close-new-yorks-notorious-rikers-island-jail"
+     "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list"
+    },
+    {
+     "name": "ABC Australia",
+     "url": "https://www.abc.net.au/news/2026-11-22/drug-lord-chapo-isidro-captured-by-mexican-military/107413284"
     }
    ],
    "outlets": 4
   },
   {
-   "id": "2026-11-20-13",
-   "rank": 13,
-   "title": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
-   "summary": "🇬🇧🇪🇺 A fresh start after #Brexit?",
+   "id": "2026-11-21-09",
+   "rank": 9,
+   "title": "Endurance athlete swims in Hormuz Strait",
+   "summary": "The Strait of Hormuz remains largely blocked, with Iran attacking vessels attempting to cross it.",
    "countries": [
-    "826",
-    "056"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/europe/andy-burnham-brussels-antonio-costa-brexit-ursula-von-der-leyen-b3088477.html"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-20-14",
-   "rank": 14,
-   "title": "Thomas Markle fit to stand trial over child abuse images, US court rules",
-   "summary": "Thomas Markle is fit to stand trial on charges of possessing child sexual abuse material, a US court has ruled.",
-   "countries": [
-    "840",
+    "364",
     "826"
    ],
    "sources": [
     {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/thomas-markle-fit-to-stand-trial-over-child-abuse-images-us-court-rules-13614172"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/endurance-athlete-swims-in-hormuz-strait"
     },
     {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/thomas-markle-meghan-fit-stand-trial-9.7428903?cmp=rss"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/endurance-athlete-swims-strait-hormuz-highlight-iran-wars-138338972"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/video/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll"
     },
     {
      "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-fit-for-trial-mentally-competen-b3088332.html"
+     "url": "https://www.independent.co.uk/news/world/middle-east/uk-endurance-swimmer-lewis-pugh-strait-of-hormuz-b3089066.html"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-21-10",
+   "rank": 10,
+   "title": "Princess of Wales speaks about impact of cancer diagnosis in BBC film Heal",
+   "summary": "Documentary records Catherine taking on Three Peaks challenge and finding ‘sense of hope alongside uncertainty’ The Princess of Wales has spoken candidly about the impact of her cancer diagnosis in a BBC…",
+   "countries": [
+    "826"
+   ],
+   "sources": [
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/uk-news/2026/nov/21/princess-of-wales-impact-cancer-diagnosis-bbc-film-heal"
+    },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/21/world/europe/princess-kate-bbc-cancer-film.html"
+    },
+    {
+     "name": "Times of India",
+     "url": "https://timesofindia.indiatimes.com/world/uk/it-changes-your-body-uks-princess-catherine-opens-up-about-cancer-journey-for-first-time/articleshow/136058830.cms"
+    },
+    {
+     "name": "ABC Australia",
+     "url": "https://www.abc.net.au/news/2026-11-22/princess-catherine-new-documentary-heal-cancer-journey/107413338"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-21-11",
+   "rank": 11,
+   "title": "Russia-bound ship attacked in Gulf of Finland",
+   "summary": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+   "countries": [
+    "246",
+    "643",
+    "804"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/cargo-ship-bound-for-russias-kaliningrad-hit-by-drones-finland-tightens-security/article71729285.ece"
     }
    ],
    "outlets": 3
   },
   {
-   "id": "2026-11-20-15",
-   "rank": 15,
-   "title": "Trump threatens ban on US firms building AI data centres overseas",
-   "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+   "id": "2026-11-21-12",
+   "rank": 12,
+   "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+   "summary": "Russia launched more than 400 drones and 110 missiles across Ukraine overnight, killing at least seven in Kyiv.",
    "countries": [
-    "840",
-    "156"
+    "804",
+    "643"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/ballistic-missile-attack-zelenskyys-hometown-central-ukraine-kills-138340723"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-21-13",
+   "rank": 13,
+   "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+   "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
+   "countries": [
+    "250",
+    "591",
+    "792"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "ABC Australia",
-     "url": "https://www.abc.net.au/news/2026-11-21/trump-vows-tax-companies-building-data-centres-overseas/107412162"
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime"
+    },
+    {
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/environment/20261120-un-climate-talks-run-into-overtime-as-countries-clash-over-fossil-fuel-cuts-cop31"
     }
    ],
-   "outlets": 2
+   "outlets": 3
   },
   {
-   "id": "2026-11-20-16",
+   "id": "2026-11-21-14",
+   "rank": 14,
+   "title": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+   "summary": "US President Donald Trump says he wants a permanent agreement to prevent Iran from developing nuclear weapons.",
+   "countries": [
+    "840",
+    "364",
+    "376"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss"
+    },
+    {
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/us-news/2026/nov/21/vance-trump-iran-nuclear-weapon"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-21-15",
+   "rank": 15,
+   "title": "Chinese-Born Neuroscientist Is Detained by ICE While Traveling From Conference",
+   "summary": "Eva Yi Xie was detained on her way back to New Jersey from a neuroscience conference in Washington this week, the latest in a string of researcher arrests.",
+   "countries": [
+    "156",
+    "840",
+    "832"
+   ],
+   "sources": [
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/20/science/chinese-scientist-detained-ice-princeton-eva-yi-xie-.html"
+    },
+    {
+     "name": "Times of India",
+     "url": "https://timesofindia.indiatimes.com/world/us/princeton-phd-student-chinese-born-neuroscientist-eva-yi-xie-detained-by-ice-at-airport-dhs-says-she-overstayed-visa-lawyers-challenge-arrest/articleshow/136061010.cms"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3375301/princeton-phd-student-china-detained-ice-after-academic-conference"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-21-16",
    "rank": 16,
-   "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-   "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
    "countries": [
     "840"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/20/us-tech-sell-off-continues-as-anthropic-tumbles-after-mega-ipo?traffic_source=rss"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/fbi-criminal-database-hacked"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/player/play/9.7431322?cmp=rss"
     }
    ],
-   "outlets": 2
+   "outlets": 3
   },
   {
-   "id": "2026-11-20-17",
+   "id": "2026-11-21-17",
    "rank": 17,
-   "title": "Trump says Putin wants peace in Ukraine even as Putin vows to fight",
-   "summary": "The U.S. president told Europeans the Russian leader is tired of the war even as Moscow rules out talks over a limited ceasefires and threatens retaliation for Ukrainian strikes.",
+   "title": "Man convicted of starting Palisades fire in Los Angeles",
+   "summary": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
    "countries": [
-    "643",
-    "840",
-    "804"
+    "840"
    ],
    "sources": [
     {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/world/2026/11/19/trump-says-putin-wants-peace-ukraine-even-putin-vows-fight/"
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire"
+    },
+    {
+     "name": "DW",
+     "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf"
     }
    ],
-   "outlets": 2
+   "outlets": 3
   },
   {
-   "id": "2026-11-20-18",
+   "id": "2026-11-21-18",
    "rank": 18,
-   "title": "Ukraine strikes Kerch Bridge as Putin ally declares ‘no one needs Europe’",
-   "summary": "Russia-Europe tensions rise as Ukraine uses its own weapons and communications tech to hit the Kerch Bridge.",
+   "title": "Houthis launch strikes on Saudi Arabia",
+   "summary": "Iran-backed Houthi rebels in Yemen continue to exchange strikes with the Saudi-led coalition.",
    "countries": [
-    "643",
-    "804"
+    "887",
+    "682",
+    "364"
    ],
    "sources": [
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/20/ukraine-strikes-kerch-bridge-as-putin-ally-declares-no-one-needs?traffic_source=rss"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/houthis-launch-strikes-on-saudi-arabia"
     },
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/putin-russia-ukraine-bridge-strike/"
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/yemens-houthis-launch-strikes-after-saudi-coalitions-special-operation/article71729354.ece"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375314/yemens-houthis-launch-strikes-riyadh-after-saudi-coalition-special-operation"
     }
    ],
-   "outlets": 2
+   "outlets": 3
   }
  ],
  "video": {
-  "edition": "2026-11-20",
-  "file": "videos/2026-11-20.mp4",
-  "title": "What are the implications of the ICJ Rohingya genocide ruling?",
-  "storyId": "2026-11-20-01",
+  "edition": "2026-11-21",
+  "file": "videos/2026-11-21.mp4",
+  "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+  "storyId": "2026-11-21-01",
   "tokens": [
-   "implication",
-   "icj",
-   "rohingya",
-   "genocide",
-   "ruling"
+   "chapo",
+   "isidro",
+   "alleged",
+   "cartel",
+   "boss",
+   "arrested",
+   "mexico"
   ]
  },
  "videos": [
   {
-   "edition": "2026-11-20",
-   "file": "videos/2026-11-20.mp4",
-   "title": "What are the implications of the ICJ Rohingya genocide ruling?"
+   "edition": "2026-11-21",
+   "file": "videos/2026-11-21.mp4",
+   "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?"
   },
   {
    "edition": "2026-11-19",
