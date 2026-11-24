@@ -1,415 +1,154 @@
 {
  "edition": "2026-11-24",
- "generated": "2026-11-24T00:50:19.986Z",
+ "generated": "2026-11-24T23:01:31.487Z",
  "names": {
   "104": "Myanmar",
-  "124": "Canada",
+  "112": "Belarus",
   "156": "China",
+  "158": "Taiwan",
   "170": "Colombia",
+  "250": "France",
   "275": "Palestine",
-  "276": "Germany",
+  "336": "Vatican",
   "356": "India",
-  "360": "Indonesia",
   "364": "Iran",
   "376": "Israel",
+  "408": "North Korea",
   "434": "Libya",
-  "524": "Nepal",
-  "591": "Panama",
+  "504": "Morocco",
   "643": "Russia",
-  "682": "Saudi Arabia",
+  "686": "Senegal",
   "702": "Singapore",
-  "792": "Turkey",
+  "760": "Syria",
   "804": "Ukraine",
   "826": "United Kingdom",
-  "840": "United States"
+  "840": "United States",
+  "032": "Argentina",
+  "050": "Bangladesh"
  },
  "stories": [
   {
    "id": "2026-11-24-01",
    "rank": 1,
-   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-   "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
-   "countries": [
-    "804",
-    "643",
-    "434"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/what-russian-warship-did-ukraine-just-sink?traffic_source=rss"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-libya-russian-ships.html"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/ukraine-claims-it-sank-russian-warship-off-libya"
-    }
-   ],
-   "outlets": 13
-  },
-  {
-   "id": "2026-11-24-02",
-   "rank": 2,
-   "title": "'Biggest U-turn in economic history': Experts react to Jensen Huang's return to Nvidia",
-   "summary": "The Nvidia CEO was reinstated after weeks of controversy over his affair with an alleged Chinese spy.",
+   "title": "What Jensen Huang's return teaches China's Xi about Trump",
+   "summary": "Huang being back at the helm of Nvidia is no guarantee of relief for Beijing.",
    "countries": [
     "840",
     "156",
-    "124",
+    "158",
     "702"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street?traffic_source=rss"
+     "url": "https://www.aljazeera.com/news/2026/11/24/todd-blanche-declines-to-confirm-if-nvidias-jensen-huang-was-investigated?traffic_source=rss"
     },
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/23/world/jensen-huang-return-nvidia-ukraine.html"
+     "url": "https://www.nytimes.com/2026/11/24/world/asia/jensen-huang-nvidia-china.html"
     },
     {
      "name": "France 24",
-     "url": "https://www.france24.com/en/tv-shows/business/20261123-jensen-huang-reinstated-as-nvidia-ceo"
+     "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261124-jensen-huang-s-nvidia-comeback-sends-ai-videos-into-overdrive"
     }
    ],
-   "outlets": 10
+   "outlets": 11
+  },
+  {
+   "id": "2026-11-24-02",
+   "rank": 2,
+   "title": "Pope Francis' diary reveals claims he saw the devil three times",
+   "summary": "Published extracts from the late pontiff's diary claim one of the visions happened \"in the choir loft\" during Mass.",
+   "countries": [
+    "336",
+    "032"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm78270l4z7no?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/24/world/europe/pope-francis-diary.html"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/pope-francis-devil-gates-of-hell-visions-diary/"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/pope-francis-private-diary-details-profound-spiritual-crisis-138401988"
+    }
+   ],
+   "outlets": 8
   },
   {
    "id": "2026-11-24-03",
    "rank": 3,
-   "title": "Thousands flee Manchester concert after unknown substance released",
-   "summary": "More than 12,000 people were evacuated from Manchester’s Co-op Live arena",
+   "title": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
+   "summary": "The publisher of an essay on coercive control apologises for \"an unfortunate and inappropriate communication\".",
    "countries": [
-    "826",
+    "250"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Sky News",
+     "url": "https://news.sky.com/story/gisele-pelicot-deeply-shocked-after-nude-photos-used-to-promote-book-13615849"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/gisele-pelicot-suing-publisher-nude-images-book-france/"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/gisle-pelicot-condemns-publisher-nude-images-rape-case-138414559"
+    }
+   ],
+   "outlets": 8
+  },
+  {
+   "id": "2026-11-24-04",
+   "rank": 4,
+   "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+   "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
+   "countries": [
+    "804",
+    "643",
+    "434",
     "840"
    ],
    "sources": [
     {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/23/world/europe/manchester-don-toliver-concert-evacuation-uk.html"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261123-12-000-evacuated-from-don-toliver-concert-after-unknown-substance-sickens-fans"
+     "url": "https://www.aljazeera.com/video/inside-story/2026/11/24/is-libya-a-new-front-in-the-ukraine-war?traffic_source=rss"
     },
     {
      "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/don-toliver-concert-manchester-uk-evacuated-possible-tear-gas/"
+     "url": "https://www.cbsnews.com/news/ukraine-zelenskyy-2-russian-ships-libya/"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/russian-attack-kills-two-people-wounds-22-in-ukraines-zaporizhzhia-official-says/article71737237.ece"
     }
    ],
    "outlets": 6
   },
   {
-   "id": "2026-11-24-04",
-   "rank": 4,
-   "title": "What's next after no deal at COP31 climate talks?",
-   "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
-   "countries": [
-    "591",
-    "356",
-    "156",
-    "682",
-    "792"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/23/climate/cop31-collapse-what-next.html"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/cop31-fails-to-agree-on-climate-deal-in-chaotic-finale/article71731651.ece"
-    },
-    {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/climate-environment/2026/11/22/cop31-negotiations-break-down-countries-fail-agree-climate-deal/"
-    }
-   ],
-   "outlets": 5
-  },
-  {
    "id": "2026-11-24-05",
    "rank": 5,
-   "title": "Turkish police hunting for lioness stalking Istanbul",
-   "summary": "Questions being asked about big cat's origins, with suspicion falling on the country's growing role in animal smuggling.",
-   "countries": [
-    "792"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/lioness-istanbul-turkey-outskirts-search/"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/turkish-authorities-search-lion-spotted-outskirts-istanbul-138369535"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-24-06",
-   "rank": 6,
-   "title": "India pledges $1.6bn to Nepal in reset of ties",
-   "summary": "As Nepal rebuilds after deadly floods, its prime minister sets contentious issues aside to secure Indian funding, port access and a new train service.",
-   "countries": [
-    "356",
-    "524"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/nepal-s-new-pm-eyes-closer-ties-with-india-amid-lingering-disputes/a-80021769?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/india-announces-16-billion-aid-package-nepals-flood-138369908"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-24-07",
-   "rank": 7,
-   "title": "Trump postpones US Army plan to detonate toxic explosives in Iowa",
-   "summary": "President Trump has further postponed the US Army’s planned detonation of nearly five tonnes of lead azide in Iowa.",
-   "countries": [
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/trump-postpones-us-army-plan-to-detonate-toxic-explosives-in-iowa?traffic_source=rss"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/iowa-lead-azide-explosion-explosive-army-9.7432313?cmp=rss"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/trump-iowa-bomb-detonation-rob-sand-b3090185.html"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-24-08",
-   "rank": 8,
-   "title": "A Landmark Genocide Ruling",
-   "summary": "A U.N. court’s decision against Myanmar sets a precedent in international law with important implications for a similar case over Israel’s actions in Gaza.",
-   "countries": [
-    "104",
-    "826",
-    "156",
-    "376",
-    "275"
-   ],
-   "sources": [
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/22/world/genocide-myanmar-un-climate-talks.html"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/asia-pacific/20261123-14-countries-acknowledge-icj-ruling-of-genocide-against-rohingya"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/europe/article/3375529/uk-sanctions-myanmar-president-military-figures-after-genocide-ruling"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-24-09",
-   "rank": 9,
-   "title": "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing",
-   "summary": "A deadly fire that tore through a confectionery factory in Indonesia has claimed the lives of 24 people, with 34 others still missing.",
-   "countries": [
-    "360"
-   ],
-   "sources": [
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/deadly-fire-at-confectionery-factory-in-indonesia-kills-24-as-rescuers-search-for-dozens-still-missing-13615577"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/indonesian-rescuers-race-find-34-missing-workers-after-138369526"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/indonesia-banten-factory-fire-death-toll-people-missing/article71733448.ece"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-24-10",
-   "rank": 10,
-   "title": "24 Killed After Fire Rips Through Candy Factory in Indonesia",
-   "summary": "Hundreds of people were at the compound when a blaze broke out on Saturday and then raged for hours.",
-   "countries": [
-    "360"
-   ],
-   "sources": [
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/23/world/asia/indonesia-factory-fire.html"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/23/at-least-24-people-killed-in-indonesia-factory-fire-police-say"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-24-11",
-   "rank": 11,
-   "title": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
-   "summary": "Ukrainian President Volodymyr Zelensky is calling for a new round of negotiations involving Ukraine, Russia, the United States and European leaders, saying Kyiv is ready to meet as early as Tuesday.",
-   "countries": [
-    "804",
-    "643",
-    "840",
-    "276"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/zelenskyy-calls-for-four-way-talks-with-russia-as-soon-as-possible/article71734890.ece"
-    },
-    {
-     "name": "RFI",
-     "url": "https://www.rfi.fr/en/international/20261123-zelensky-calls-for-eu-inclusion-in-talks-with-russia-as-soon-as-possible-nato-defence"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-24-12",
-   "rank": 12,
-   "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
-   "summary": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports.",
-   "countries": [
-    "643",
-    "804"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/eu-proposes-sweeping-new-russia-sanctions-targeting-banks-138382150"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/europe/article/3375530/eu-moves-ban-russian-flags-sports-events-under-new-sanctions"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-24-13",
-   "rank": 13,
-   "title": "Iran vows to end U.S. naval blockade by \"all available means\"",
-   "summary": "Iran vows to force the U.S.",
-   "countries": [
-    "840",
-    "364",
-    "376"
-   ],
-   "sources": [
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/will-use-all-available-means-to-counter-us-blockade-iran/article71735993.ece"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-24-14",
-   "rank": 14,
-   "title": "NATO vows space defence after Russia nuclear satellite report",
-   "summary": "NATO chief Mark Rutte said Monday the alliance would defend against threats in space when asked about German media reports that Russia may be preparing to launch a nuclear-armed satellite.",
-   "countries": [
-    "643",
-    "276",
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/nato-vows-space-defence-after-russia-nuclear-satellite-report"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/europe/russia-satellite-nuclear-weapon-space-b3089665.html"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375522/nato-vows-space-defence-after-russia-nuclear-satellite-report"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-24-15",
-   "rank": 15,
    "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
    "summary": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
    "countries": [
@@ -421,12 +160,301 @@
      "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/iran-singer-flogging-9.7432912?cmp=rss"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/24/world/middleeast/iran-singer-parastoo-ahmadi-flogging-lashes.html"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/asia-pacific/20261124-un-condemns-iran-flogging-singer-parastoo-ahmadi"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/iran-singer-parastoo-ahmadi-lashed-performing-no-hijab/"
+    }
+   ],
+   "outlets": 6
+  },
+  {
+   "id": "2026-11-24-06",
+   "rank": 6,
+   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+   "summary": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
+   "countries": [
+    "275",
+    "376"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/hamas-security-official-killed-in-israel-strikes-in-gaza/article71738279.ece"
     },
     {
      "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab"
+     "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp"
+    }
+   ],
+   "outlets": 6
+  },
+  {
+   "id": "2026-11-24-07",
+   "rank": 7,
+   "title": "Senegal reinstated as AFCON 2025 winners",
+   "summary": "In tonight's edition, Senegal were reinstated as 2025 Africa Cup of Nations winners after the sport's highest court upheld their appeal against being stripped of the title.",
+   "countries": [
+    "686",
+    "504"
+   ],
+   "sources": [
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/senegal-reinstated-as-afcon-2025-winners"
+    },
+    {
+     "name": "Sky News",
+     "url": "https://news.sky.com/story/senegal-awarded-africa-cup-of-nations-after-winning-appeal-over-title-being-stripped-13615900"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/24/cas-awards-senegal-afcon-title-after-successful-appeal"
+    },
+    {
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/sports/20261124-top-sports-lawyers-declare-senegal-2025-afcon-champions"
+    }
+   ],
+   "outlets": 5
+  },
+  {
+   "id": "2026-11-24-08",
+   "rank": 8,
+   "title": "Hostage situation reported in Colombia as armed men flee into supermarket",
+   "summary": "President Abelardo de la Espriella says police and military have been deployed as situation unfolds in Cartagena.",
+   "countries": [
+    "170"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket?traffic_source=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights"
+    },
+    {
+     "name": "Sky News",
+     "url": "https://news.sky.com/story/armed-men-take-at-least-25-hostages-in-supermarket-in-colombia-tourist-hotspot-13616139"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/cartagena-colombia-hostages-supermarket/"
+    }
+   ],
+   "outlets": 5
+  },
+  {
+   "id": "2026-11-24-09",
+   "rank": 9,
+   "title": "2 Men Arrested on Suspicion of Breaking Into Prince William and Kate’s Country Home",
+   "summary": "The men were arrested near Anmer Hall, the couple’s country retreat in Norfolk, on Monday night.",
+   "countries": [
+    "826"
+   ],
+   "sources": [
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/24/world/europe/prince-william-kate-home-break-in-anmer-hall-uk.html"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/prince-william-kate-country-home-broken-into-british-media/"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/breakin-royals-william-kate-country-home-sandringham-9.7433700?cmp=rss"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/the-seven/2026/11/24/two-men-arrested-possible-burglary-home-prince-william-princess-kate/"
+    }
+   ],
+   "outlets": 5
+  },
+  {
+   "id": "2026-11-24-10",
+   "rank": 10,
+   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "summary": "The verdict follows a months-long trial in New York.",
+   "countries": [
+    "840",
+    "156",
+    "364",
+    "408"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-24-11",
+   "rank": 11,
+   "title": "Car bomb tears through Colombian city wounding more than 20",
+   "summary": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
+   "countries": [
+    "170"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/car-bomb-destroys-buildings-in-central-colombian-city"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/car-bomb-destroys-buildings-in-villavicencio-says-colombian-president-de-la-espriella/article71737324.ece"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-24-12",
+   "rank": 12,
+   "title": "Land mine casualties soar in Syria, two years after war",
+   "summary": "Nearly 1,000 children are among those killed or injured by explosives left over from the conflict, figures show.",
+   "countries": [
+    "104",
+    "760"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/24/global-landmine-casualties-hit-a-five-year-high-driven-by-myanmar-syria?traffic_source=rss"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/global-land-mine-casualties-hit-5-year-high-138403128"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-24-13",
+   "rank": 13,
+   "title": "Murder Charge Reinstated for French Police Officer in Teen’s Shooting",
+   "summary": "The killing of Nahel Merzouk, 17, sparked nationwide unrest.",
+   "countries": [
+    "250"
+   ],
+   "sources": [
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/24/world/europe/france-nahel-merzouk.html"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/video/20261124-french-police-officer-who-shot-teenager-to-face-murder-trial"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/france-police-officer-shot-teenager-b3090567.html"
+    },
+    {
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/france/20261124-french-officer-to-stand-trial-for-murder-over-nahel-shooting"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-24-14",
+   "rank": 14,
+   "title": "Over 700,000 Russian Soldiers Have Died in Ukraine, Analysis Indicates",
+   "summary": "Hacked government data underscores the immense human cost of President Vladimir V.",
+   "countries": [
+    "643",
+    "804",
+    "112"
+   ],
+   "sources": [
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/video/20261124-leaked-data-suggests-500-000-russian-soldiers-killed-since-start-of-ukraine-invasion"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/russia-suicide-ukraine-war-casualties-b3090565.html"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-24-15",
+   "rank": 15,
+   "title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
+   "summary": "Hasina has spoken several times of her desire to return, but this is the first time she has set a date.",
+   "countries": [
+    "050",
+    "356"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/spokesperson-ousted-bangladeshi-prime-minister-sheikh-hasina-plans-138398785"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/former-bangladesh-pm-sheikh-hasina-return-to-bangladesh/article71737182.ece"
     }
    ],
    "outlets": 3
@@ -434,23 +462,23 @@
   {
    "id": "2026-11-24-16",
    "rank": 16,
-   "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-   "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
+   "title": "US Army to detonate more than 4 tonnes of lead azide in Iowa on Wednesday",
+   "summary": "Despite alarm about toxic lead, federal officials say destroying the unstable explosives is the safest course of action.",
    "countries": [
     "840"
    ],
    "sources": [
     {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&amp;at_campaign=rss"
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/24/us-army-to-detonate-more-than-4-tonnes-of-lead-azide-in-iowa-on-wednesday?traffic_source=rss"
     },
     {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31"
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/iowa-lead-azide-explosion-explosive-army-9.7432313?cmp=rss"
     },
     {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-largest-since-1992/article71733328.ece"
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/donald-trump-middletown-justice-department-national-weather-service-fema-b3090745.html"
     }
    ],
    "outlets": 3
@@ -458,64 +486,71 @@
   {
    "id": "2026-11-24-17",
    "rank": 17,
-   "title": "Federal appeals court gives President Donald Trump path to erasing hush money conviction",
-   "summary": "The panel ordered a lower court to promptly issue a decision on whether the case should remain in federal court; if that happens, Mr.",
+   "title": "Outrage after ICE arrest father and daughter at Seattle airport",
+   "summary": "ICE officers arrested two passengers, a father and daughter, as they were boarding a flight in Seattle on Saturday.",
    "countries": [
     "840"
    ],
    "sources": [
     {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/federal-appeals-court-gives-president-donald-trump-path-to-erasing-hush-money-conviction/article71736252.ece"
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/videos/crd910g5x882o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-hush-money-appeals-court-ruling-b3090241.html"
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/seattle-airport-ice-arrest-9.7432394?cmp=rss"
+    },
+    {
+     "name": "Times of India",
+     "url": "https://timesofindia.indiatimes.com/world/us/sofia-hernandez-mejias-arrest-by-ice-from-seattle-airport-husband-says-he-feels-useless-as-a-us-citizen/articleshow/136141225.cms"
     }
    ],
-   "outlets": 2
+   "outlets": 3
   },
   {
    "id": "2026-11-24-18",
    "rank": 18,
-   "title": "Drone attack on Colombia police base injures civilians, including infant",
-   "summary": "Far-right President De la Espriella steps up offensive as rebel groups strike back with drone strikes, roadside bombs.",
+   "title": "China Investigates Chen Jining, Shanghai’s Party Leader, as Xi’s Purges Expand",
+   "summary": "Before his abrupt downfall, the technocratic Chen Jining was seen as a future national leader in Xi Jinping’s China.",
    "countries": [
-    "170"
+    "156"
    ],
    "sources": [
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/23/drone-attack-on-colombia-police-base-injures-civilians-including-infant?traffic_source=rss"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/24/world/asia/shanghai-party-leader-investigation-china-xi.html"
     },
     {
      "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/drone-attack-colombian-police-base-injures-civilians-damages-138381975"
+     "url": "https://abcnews.com/International/wireStory/china-investigates-politburo-member-shanghai-party-chief-chen-138407145"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/china/politics/article/3375640/shanghai-party-chief-faces-corruption-probe"
     }
    ],
-   "outlets": 2
+   "outlets": 3
   }
  ],
  "video": {
   "edition": "2026-11-24",
   "file": "videos/2026-11-24.mp4",
-  "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+  "title": "What Jensen Huang's return teaches China's Xi about Trump",
   "storyId": "2026-11-24-01",
   "tokens": [
-   "russian",
-   "warship",
-   "hit",
-   "ukrainian",
-   "drone",
-   "libya",
-   "zelensky"
+   "jensen",
+   "huang",
+   "return",
+   "teache",
+   "china",
+   "trump"
   ]
  },
  "videos": [
   {
    "edition": "2026-11-24",
    "file": "videos/2026-11-24.mp4",
-   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says"
+   "title": "What Jensen Huang's return teaches China's Xi about Trump"
   },
   {
    "edition": "2026-11-21",
