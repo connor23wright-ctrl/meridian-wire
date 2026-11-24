@@ -1,106 +1,38 @@
 {
- "edition": "2026-11-22",
- "generated": "2026-11-22T20:20:58.115Z",
+ "edition": "2026-11-24",
+ "generated": "2026-11-24T00:50:19.986Z",
  "names": {
+  "104": "Myanmar",
+  "124": "Canada",
   "156": "China",
-  "231": "Ethiopia",
-  "246": "Finland",
-  "250": "France",
+  "170": "Colombia",
   "275": "Palestine",
+  "276": "Germany",
   "356": "India",
   "360": "Indonesia",
   "364": "Iran",
-  "372": "Ireland",
   "376": "Israel",
-  "410": "South Korea",
   "434": "Libya",
-  "440": "Lithuania",
-  "484": "Mexico",
-  "566": "Nigeria",
+  "524": "Nepal",
   "591": "Panama",
-  "616": "Poland",
   "643": "Russia",
+  "682": "Saudi Arabia",
   "702": "Singapore",
-  "729": "Sudan",
-  "752": "Sweden",
   "792": "Turkey",
   "804": "Ukraine",
   "826": "United Kingdom",
-  "840": "United States",
-  "036": "Australia"
+  "840": "United States"
  },
  "stories": [
   {
-   "id": "2026-11-22-01",
+   "id": "2026-11-24-01",
    "rank": 1,
-   "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-   "summary": "The talks fail to make a breakthrough on tackling climate change after a row about mentioning fossil fuels.",
+   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+   "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
    "countries": [
-    "792",
-    "826",
-    "372",
-    "591",
-    "356"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
-    }
-   ],
-   "outlets": 10
-  },
-  {
-   "id": "2026-11-22-02",
-   "rank": 2,
-   "title": "Three killed and dozens missing after fire at Indonesian factory",
-   "summary": "At least three people were killed and many more feared dead after a fire at a confectionary factory.",
-   "countries": [
-    "360"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-rdf"
-    }
-   ],
-   "outlets": 8
-  },
-  {
-   "id": "2026-11-22-03",
-   "rank": 3,
-   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-   "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
-   "countries": [
-    "643",
-    "434",
     "804",
-    "246",
-    "752"
+    "643",
+    "434"
    ],
    "sources": [
     {
@@ -109,431 +41,481 @@
     },
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss"
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/what-russian-warship-did-ukraine-just-sink?traffic_source=rss"
     },
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/23/world/europe/ukraine-libya-russian-ships.html"
     },
     {
      "name": "France 24",
-     "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base"
+     "url": "https://www.france24.com/en/ukraine-claims-it-sank-russian-warship-off-libya"
     }
    ],
-   "outlets": 7
+   "outlets": 13
   },
   {
-   "id": "2026-11-22-04",
-   "rank": 4,
-   "title": "South Korea education minister resigns over exam cheating scandal",
-   "summary": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos.",
+   "id": "2026-11-24-02",
+   "rank": 2,
+   "title": "'Biggest U-turn in economic history': Experts react to Jensen Huang's return to Nvidia",
+   "summary": "The Nvidia CEO was reinstated after weeks of controversy over his affair with an alleged Chinese spy.",
    "countries": [
-    "410"
+    "840",
+    "156",
+    "124",
+    "702"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/23/what-nvidias-jensen-huangs-return-means-for-washington-and-wall-street?traffic_source=rss"
     },
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/22/world/asia/korea-csat-exam-ai-cheating.html"
+     "url": "https://www.nytimes.com/2026/11/23/world/jensen-huang-return-nvidia-ukraine.html"
     },
     {
      "name": "France 24",
-     "url": "https://www.france24.com/en/south-korea-ai-cheating-sparks-exam-security-chaos"
+     "url": "https://www.france24.com/en/tv-shows/business/20261123-jensen-huang-reinstated-as-nvidia-ceo"
+    }
+   ],
+   "outlets": 10
+  },
+  {
+   "id": "2026-11-24-03",
+   "rank": 3,
+   "title": "Thousands flee Manchester concert after unknown substance released",
+   "summary": "More than 12,000 people were evacuated from Manchester’s Co-op Live arena",
+   "countries": [
+    "826",
+    "840"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss"
+    },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/23/world/europe/manchester-don-toliver-concert-evacuation-uk.html"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/video/20261123-12-000-evacuated-from-don-toliver-concert-after-unknown-substance-sickens-fans"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/don-toliver-concert-manchester-uk-evacuated-possible-tear-gas/"
     }
    ],
    "outlets": 6
   },
   {
-   "id": "2026-11-22-05",
-   "rank": 5,
-   "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
-   "summary": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to…",
+   "id": "2026-11-24-04",
+   "rank": 4,
+   "title": "What's next after no deal at COP31 climate talks?",
+   "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
    "countries": [
-    "364",
-    "826"
-   ],
-   "sources": [
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/athlete-swims-strait-of-hormuz-iran-war-wildlife/"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/endurance-athlete-swims-strait-hormuz-highlight-iran-wars-138338972"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/un-endurance-swimmer-strait-of-hormuz-wildlife-impact-9.7431891?cmp=rss"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-22-06",
-   "rank": 6,
-   "title": "Dozens drown as boat capsizes in Nigeria en route to funeral",
-   "summary": "At least 24 people have been killed after a boat carrying mourners to a funeral capsized in Nigeria.",
-   "countries": [
-    "566"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dozens-drown-as-boat-capsizes-in-nigeria-en-route-to-funeral?traffic_source=rss"
-    },
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/at-least-24-dead-after-boat-taking-passengers-to-funeral-capsizes-in-nigeria-13615057"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/24-dead-nigeria-boat-capsizes-carrying-people-funeral-138348287"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/africa/nigeria-funeral-boat-capsizes-victims-b3089271.html"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-22-07",
-   "rank": 7,
-   "title": "How El Chapo Isidro, alleged Mexican cartel leader, was captured",
-   "summary": "Operation in Sinaloa state resulted in deadly heavy battles between members of security forces and gunmen.",
-   "countries": [
-    "484",
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/22/how-el-chapo-isidro-alleged-mexican-cartel-leader-was-captured?traffic_source=rss"
-    },
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html"
-    },
-    {
-     "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/world/2026/11/21/mexico-seizes-cartel-boss-el-chapo-isidro-among-fbis-most-wanted/"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-22-08",
-   "rank": 8,
-   "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
-   "summary": "Fausto Isidro Meza Flores, better known as \"El Chapo Isidro,\" was one of the FBI's most wanted fugitives.",
-   "countries": [
-    "484"
-   ],
-   "sources": [
-    {
-     "name": "NPR",
-     "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/mexico-detains-top-cartel-boss-el-chapo-isidro-138341584"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/mexico-detains-sinaloa-cartel-boss-el-chapo-isidro-9.7431280?cmp=rss"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/11-killed-in-burst-of-violence-in-northern-mexico-after-capture-of-cartel-leader-meza-flores/article71729468.ece"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-22-09",
-   "rank": 9,
-   "title": "‘Horrific’ and ‘chilling’: Officials condemn ICE arrests at Seattle airport",
-   "summary": "Video shows masked immigration agents forcibly detaining two people at Seattle airport, raising concerns over tactics.",
-   "countries": [
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport?traffic_source=rss"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/ice-arrest-seattle-flight-alaska-airlines-b3089427.html"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375353/horrific-ice-arrests-seattle-airport-jet-bridge-rattles-passengers-fuels-outrage"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-22-10",
-   "rank": 10,
-   "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
-   "summary": "Milestone reached Sunday, after Democrat Chuck Hubbard defeated Republican Virginia Foxx in North Carolina House Democrats have secured their best general election result in decades, winning at least 258 seats…",
-   "countries": [
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/americas/20261122-democrat-hubbard-wins-north-carolina-recount-clinching-historic-house-majority"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/house-seats-democrats-historic-congress-b3089490.html"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-22-11",
-   "rank": 11,
-   "title": "Drone attacks kill four near Sudan’s capital, damage UN building",
-   "summary": "The Rapid Support Forces are blamed as drones reportedly hit UN and government buildings, as well as Khartoum's airport.",
-   "countries": [
-    "804",
-    "643",
-    "729",
-    "250"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum?traffic_source=rss"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/a-russian-attack-destroyed-an-apartment-building-in-dymer-near-kyiv-killing-two-as-kaliningrad-sounded-a-rare-air-alert/article71731042.ece"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/europe/article/3375401/russian-strikes-kill-6-kyiv-region-ukraine-says"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-22-12",
-   "rank": 12,
-   "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-   "summary": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday.",
-   "countries": [
-    "246",
-    "643",
-    "804",
-    "616",
-    "440"
+    "591",
+    "356",
+    "156",
+    "682",
+    "792"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/air-alert-sounds-kaliningrad-hours-after-attack-russia-138356879"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/23/climate/cop31-collapse-what-next.html"
     },
     {
      "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/cargo-ship-bound-for-russias-kaliningrad-hit-by-drones-finland-tightens-security/article71729285.ece"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-22-13",
-   "rank": 13,
-   "title": "Israel investigates West Bank fires",
-   "summary": "Israeli authorities have opened an investigation after Palestinian vehicles and properties were vandalised and set on fire in four villages in the occupied West Bank, in attacks local activists say were…",
-   "countries": [
-    "376",
-    "275",
-    "729"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/israel-investigates-west-bank-fires"
+     "url": "https://www.thehindu.com/sci-tech/energy-and-environment/cop31-fails-to-agree-on-climate-deal-in-chaotic-finale/article71731651.ece"
     },
     {
      "name": "Washington Post",
-     "url": "https://www.washingtonpost.com/world/2026/11/22/arson-attacks-by-israeli-settlers-west-bank-add-tense-political-debate/"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3375395/israel-investigates-west-bank-fires-blamed-israeli-settlers"
+     "url": "https://www.washingtonpost.com/climate-environment/2026/11/22/cop31-negotiations-break-down-countries-fail-agree-climate-deal/"
     }
    ],
-   "outlets": 3
+   "outlets": 5
   },
   {
-   "id": "2026-11-22-14",
-   "rank": 14,
-   "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 7 in Ukraine",
-   "summary": "Three Russian attacks kill at least six people near Kyiv as overnight Russian shelling kills one in Zaporizhzhia.",
+   "id": "2026-11-24-05",
+   "rank": 5,
+   "title": "Turkish police hunting for lioness stalking Istanbul",
+   "summary": "Questions being asked about big cat's origins, with suspicion falling on the country's growing role in animal smuggling.",
    "countries": [
-    "643",
-    "804",
-    "840",
-    "616"
+    "792"
    ],
    "sources": [
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss"
+     "url": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/lioness-istanbul-turkey-outskirts-search/"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/turkish-authorities-search-lion-spotted-outskirts-istanbul-138369535"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/23/turkish-authorities-search-for-lion-spotted-on-outskirts-of-istanbul"
+    }
+   ],
+   "outlets": 5
+  },
+  {
+   "id": "2026-11-24-06",
+   "rank": 6,
+   "title": "India pledges $1.6bn to Nepal in reset of ties",
+   "summary": "As Nepal rebuilds after deadly floods, its prime minister sets contentious issues aside to secure Indian funding, port access and a new train service.",
+   "countries": [
+    "356",
+    "524"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss"
     },
     {
      "name": "DW",
-     "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf"
+     "url": "https://www.dw.com/en/nepal-s-new-pm-eyes-closer-ties-with-india-amid-lingering-disputes/a-80021769?maca=en-rss-en-world-4025-rdf"
     },
     {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/ballistic-missile-attack-on-zelenskyys-hometown-kills-2/article71729235.ece"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/india-announces-16-billion-aid-package-nepals-flood-138369908"
+    }
+   ],
+   "outlets": 5
+  },
+  {
+   "id": "2026-11-24-07",
+   "rank": 7,
+   "title": "Trump postpones US Army plan to detonate toxic explosives in Iowa",
+   "summary": "President Trump has further postponed the US Army’s planned detonation of nearly five tonnes of lead azide in Iowa.",
+   "countries": [
+    "840"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/trump-postpones-us-army-plan-to-detonate-toxic-explosives-in-iowa?traffic_source=rss"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/iowa-lead-azide-explosion-explosive-army-9.7432313?cmp=rss"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/trump-iowa-bomb-detonation-rob-sand-b3090185.html"
     }
    ],
    "outlets": 3
   },
   {
-   "id": "2026-11-22-15",
-   "rank": 15,
-   "title": "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
-   "summary": "China’s espionage agency has been running a secret campaign to help the country’s companies acquire advanced A.I.",
+   "id": "2026-11-24-08",
+   "rank": 8,
+   "title": "A Landmark Genocide Ruling",
+   "summary": "A U.N. court’s decision against Myanmar sets a precedent in international law with important implications for a similar case over Israel’s actions in Gaza.",
    "countries": [
+    "104",
+    "826",
     "156",
-    "840",
-    "702"
+    "376",
+    "275"
    ],
    "sources": [
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html"
+     "url": "https://www.nytimes.com/2026/11/22/world/genocide-myanmar-un-climate-talks.html"
     },
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/video/how-china-gets-access-to-american-ai-chips/"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/asia-pacific/20261123-14-countries-acknowledge-icj-ruling-of-genocide-against-rohingya"
     },
     {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/us-blocks-chinas-remote-access-to-ai-chips-after-nvidia-scandal-china-slams-move/article71711869.ece"
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/europe/article/3375529/uk-sanctions-myanmar-president-military-figures-after-genocide-ruling"
     }
    ],
    "outlets": 3
   },
   {
-   "id": "2026-11-22-16",
-   "rank": 16,
-   "title": "Australian politics live: small business carveout in digital duty of care; countdown to pass key legislation begins",
-   "summary": "Get our breaking news email , free app or daily news podcast Good morning, Krishani Dhanji here with you for the final sitting week of the year!",
+   "id": "2026-11-24-09",
+   "rank": 9,
+   "title": "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing",
+   "summary": "A deadly fire that tore through a confectionery factory in Indonesia has claimed the lives of 24 people, with 34 others still missing.",
    "countries": [
-    "036"
+    "360"
    ],
    "sources": [
     {
-     "name": "The Guardian",
-     "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
+     "name": "Sky News",
+     "url": "https://news.sky.com/story/deadly-fire-at-confectionery-factory-in-indonesia-kills-24-as-rescuers-search-for-dozens-still-missing-13615577"
     },
     {
-     "name": "ABC Australia",
-     "url": "https://www.abc.net.au/news/2026-11-23/federal-politics-live-blog-parliament-nov-23/107415266"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/indonesian-rescuers-race-find-34-missing-workers-after-138369526"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/indonesia-banten-factory-fire-death-toll-people-missing/article71733448.ece"
     }
    ],
-   "outlets": 2
+   "outlets": 3
   },
   {
-   "id": "2026-11-22-17",
-   "rank": 17,
-   "title": "'He's not America's friend in Ukraine': US spy chief on Putin days after Trump's praise",
-   "summary": "Director of National Intelligence Jay Clayton said on Sunday it was “entirely appropriate” for US President Donald Trump to call Russian leader Vladimir Putin his friend.",
+   "id": "2026-11-24-10",
+   "rank": 10,
+   "title": "24 Killed After Fire Rips Through Candy Factory in Indonesia",
+   "summary": "Hundreds of people were at the compound when a blaze broke out on Saturday and then raged for hours.",
    "countries": [
-    "840",
+    "360"
+   ],
+   "sources": [
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/23/world/asia/indonesia-factory-fire.html"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/23/at-least-24-people-killed-in-indonesia-factory-fire-police-say"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-24-11",
+   "rank": 11,
+   "title": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+   "summary": "Ukrainian President Volodymyr Zelensky is calling for a new round of negotiations involving Ukraine, Russia, the United States and European leaders, saying Kyiv is ready to meet as early as Tuesday.",
+   "countries": [
+    "804",
     "643",
-    "156",
+    "840",
+    "276"
+   ],
+   "sources": [
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/zelenskyy-calls-for-four-way-talks-with-russia-as-soon-as-possible/article71734890.ece"
+    },
+    {
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/international/20261123-zelensky-calls-for-eu-inclusion-in-talks-with-russia-as-soon-as-possible-nato-defence"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-24-12",
+   "rank": 12,
+   "title": "EU plans sports ban in sweeping new Russia sanctions proposal",
+   "summary": "Proposed sanctions aim to curb Russian crypto financing and 'propaganda' in sports.",
+   "countries": [
+    "643",
     "804"
    ],
    "sources": [
     {
-     "name": "Times of India",
-     "url": "https://timesofindia.indiatimes.com/world/us/hes-not-americas-friend-in-ukraine-us-intelligence-chief-on-putin-days-after-trumps-praise/articleshow/136079476.cms"
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal?traffic_source=rss"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/eu-proposes-sweeping-new-russia-sanctions-targeting-banks-138382150"
     },
     {
      "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375403/us-intelligence-chief-says-trumps-friend-label-putin-entirely-appropriate"
+     "url": "https://www.scmp.com/news/world/europe/article/3375530/eu-moves-ban-russian-flags-sports-events-under-new-sanctions"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-24-13",
+   "rank": 13,
+   "title": "Iran vows to end U.S. naval blockade by \"all available means\"",
+   "summary": "Iran vows to force the U.S.",
+   "countries": [
+    "840",
+    "364",
+    "376"
+   ],
+   "sources": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/will-use-all-available-means-to-counter-us-blockade-iran/article71735993.ece"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-24-14",
+   "rank": 14,
+   "title": "NATO vows space defence after Russia nuclear satellite report",
+   "summary": "NATO chief Mark Rutte said Monday the alliance would defend against threats in space when asked about German media reports that Russia may be preparing to launch a nuclear-armed satellite.",
+   "countries": [
+    "643",
+    "276",
+    "840"
+   ],
+   "sources": [
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/nato-vows-space-defence-after-russia-nuclear-satellite-report"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/russia-satellite-nuclear-weapon-space-b3089665.html"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375522/nato-vows-space-defence-after-russia-nuclear-satellite-report"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-24-15",
+   "rank": 15,
+   "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+   "summary": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
+   "countries": [
+    "364"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/iran-singer-flogging-9.7432912?cmp=rss"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-24-16",
+   "rank": 16,
+   "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+   "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
+   "countries": [
+    "840"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-largest-since-1992/article71733328.ece"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-24-17",
+   "rank": 17,
+   "title": "Federal appeals court gives President Donald Trump path to erasing hush money conviction",
+   "summary": "The panel ordered a lower court to promptly issue a decision on whether the case should remain in federal court; if that happens, Mr.",
+   "countries": [
+    "840"
+   ],
+   "sources": [
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/federal-appeals-court-gives-president-donald-trump-path-to-erasing-hush-money-conviction/article71736252.ece"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-hush-money-appeals-court-ruling-b3090241.html"
     }
    ],
    "outlets": 2
   },
   {
-   "id": "2026-11-22-18",
+   "id": "2026-11-24-18",
    "rank": 18,
-   "title": "Civilians killed in RSF drone strikes in Sudan",
-   "summary": "Several civilians have been killed and several buildings damaged in drone strikes by Sudan’s Rapid Support Forces.",
+   "title": "Drone attack on Colombia police base injures civilians, including infant",
+   "summary": "Far-right President De la Espriella steps up offensive as rebel groups strike back with drone strikes, roadside bombs.",
    "countries": [
-    "729",
-    "231"
+    "170"
    ],
    "sources": [
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan?traffic_source=rss"
+     "url": "https://www.aljazeera.com/news/2026/11/23/drone-attack-on-colombia-police-base-injures-civilians-including-infant?traffic_source=rss"
     },
     {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/drone-strikes-hit-homes-un-premises-in-sudans-capital/article71731677.ece"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/drone-attack-colombian-police-base-injures-civilians-damages-138381975"
     }
    ],
    "outlets": 2
   }
  ],
  "video": {
-  "edition": "2026-11-22",
-  "file": "videos/2026-11-22.mp4",
-  "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-  "storyId": "2026-11-22-01",
+  "edition": "2026-11-24",
+  "file": "videos/2026-11-24.mp4",
+  "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+  "storyId": "2026-11-24-01",
   "tokens": [
-   "cop31",
-   "fail",
-   "reach",
-   "major",
-   "climate",
-   "deal",
-   "talk",
-   "expose",
-   "deep",
-   "division"
+   "russian",
+   "warship",
+   "hit",
+   "ukrainian",
+   "drone",
+   "libya",
+   "zelensky"
   ]
  },
  "videos": [
   {
-   "edition": "2026-11-22",
-   "file": "videos/2026-11-22.mp4",
-   "title": "COP31 fails to reach major climate deal as talks expose deep divisions"
+   "edition": "2026-11-24",
+   "file": "videos/2026-11-24.mp4",
+   "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says"
   },
   {
    "edition": "2026-11-21",
