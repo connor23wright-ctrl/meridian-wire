@@ -1,253 +1,192 @@
 {
- "edition": "2026-11-24",
- "generated": "2026-11-24T23:01:31.487Z",
+ "edition": "2026-11-25",
+ "generated": "2026-11-25T22:30:30.564Z",
  "names": {
-  "104": "Myanmar",
   "112": "Belarus",
+  "124": "Canada",
   "156": "China",
-  "158": "Taiwan",
   "170": "Colombia",
+  "222": "El Salvador",
   "250": "France",
   "275": "Palestine",
-  "336": "Vatican",
   "356": "India",
   "364": "Iran",
   "376": "Israel",
   "408": "North Korea",
   "434": "Libya",
-  "504": "Morocco",
+  "586": "Pakistan",
+  "608": "Philippines",
   "643": "Russia",
-  "686": "Senegal",
-  "702": "Singapore",
-  "760": "Syria",
+  "724": "Spain",
+  "756": "Switzerland",
   "804": "Ukraine",
+  "818": "Egypt",
   "826": "United Kingdom",
   "840": "United States",
-  "032": "Argentina",
-  "050": "Bangladesh"
+  "887": "Yemen",
+  "050": "Bangladesh",
+  "036": "Australia",
+  "090": "Solomon Islands"
  },
  "stories": [
   {
-   "id": "2026-11-24-01",
+   "id": "2026-11-25-01",
    "rank": 1,
-   "title": "What Jensen Huang's return teaches China's Xi about Trump",
-   "summary": "Huang being back at the helm of Nvidia is no guarantee of relief for Beijing.",
+   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+   "summary": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
    "countries": [
-    "840",
-    "156",
-    "158",
-    "702"
+    "818"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/24/todd-blanche-declines-to-confirm-if-nvidias-jensen-huang-was-investigated?traffic_source=rss"
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss"
     },
     {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/24/world/asia/jensen-huang-nvidia-china.html"
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece"
     },
     {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261124-jensen-huang-s-nvidia-comeback-sends-ai-videos-into-overdrive"
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district"
     }
    ],
-   "outlets": 11
+   "outlets": 8
   },
   {
-   "id": "2026-11-24-02",
+   "id": "2026-11-25-02",
    "rank": 2,
-   "title": "Pope Francis' diary reveals claims he saw the devil three times",
-   "summary": "Published extracts from the late pontiff's diary claim one of the visions happened \"in the choir loft\" during Mass.",
+   "title": "US Army declares Iowa lead azide detonation ‘tremendously successful’",
+   "summary": "Army hails Iowa's lead azide disposal operation as some experts warn of potentially hidden toxins.",
    "countries": [
-    "336",
-    "032"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cm78270l4z7no?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/24/world/europe/pope-francis-diary.html"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/pope-francis-devil-gates-of-hell-visions-diary/"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/pope-francis-private-diary-details-profound-spiritual-crisis-138401988"
-    }
-   ],
-   "outlets": 8
-  },
-  {
-   "id": "2026-11-24-03",
-   "rank": 3,
-   "title": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
-   "summary": "The publisher of an essay on coercive control apologises for \"an unfortunate and inappropriate communication\".",
-   "countries": [
-    "250"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/gisele-pelicot-deeply-shocked-after-nude-photos-used-to-promote-book-13615849"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/gisele-pelicot-suing-publisher-nude-images-book-france/"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/gisle-pelicot-condemns-publisher-nude-images-rape-case-138414559"
-    }
-   ],
-   "outlets": 8
-  },
-  {
-   "id": "2026-11-24-04",
-   "rank": 4,
-   "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-   "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-   "countries": [
-    "804",
-    "643",
-    "434",
     "840"
    ],
    "sources": [
     {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/inside-story/2026/11/24/is-libya-a-new-front-in-the-ukraine-war?traffic_source=rss"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/ukraine-zelenskyy-2-russian-ships-libya/"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/russian-attack-kills-two-people-wounds-22-in-ukraines-zaporizhzhia-official-says/article71737237.ece"
-    }
-   ],
-   "outlets": 6
-  },
-  {
-   "id": "2026-11-24-05",
-   "rank": 5,
-   "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
-   "summary": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
-   "countries": [
-    "364"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/24/world/middleeast/iran-singer-parastoo-ahmadi-flogging-lashes.html"
+     "url": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful?traffic_source=rss"
     },
     {
      "name": "France 24",
-     "url": "https://www.france24.com/en/asia-pacific/20261124-un-condemns-iran-flogging-singer-parastoo-ahmadi"
+     "url": "https://www.france24.com/en/video/20261125-iowa-toxic-dust-fears-as-us-army-blows-up-10-000-pounds-of-explosives"
     },
     {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/iran-singer-parastoo-ahmadi-lashed-performing-no-hijab/"
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/25/video-shows-massive-explosion-as-us-army-destroys-entire-stockpile-of-lead-azide"
     }
    ],
    "outlets": 6
   },
   {
-   "id": "2026-11-24-06",
-   "rank": 6,
-   "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-   "summary": "Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
+   "id": "2026-11-25-03",
+   "rank": 3,
+   "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+   "summary": "Mohammed Abu al-Ouf, head of Hamas's internal security service in northern Gaza, was killed with his wife and two teenage daughters, doctors say.",
    "countries": [
     "275",
-    "376"
+    "376",
+    "887"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss"
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/gaza-hamas-israel-kills-two-hamas-officials-9.7435419?cmp=rss"
     },
     {
      "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/hamas-security-official-killed-in-israel-strikes-in-gaza/article71738279.ece"
+     "url": "https://www.thehindu.com/news/international/israeli-strike-kills-hamas-official-his-wife-and-children/article71743893.ece"
     },
     {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/24/israeli-strike-kills-hamas-internal-security-chief-in-gaza-source-tells-afp"
-    }
-   ],
-   "outlets": 6
-  },
-  {
-   "id": "2026-11-24-07",
-   "rank": 7,
-   "title": "Senegal reinstated as AFCON 2025 winners",
-   "summary": "In tonight's edition, Senegal were reinstated as 2025 Africa Cup of Nations winners after the sport's highest court upheld their appeal against being stripped of the title.",
-   "countries": [
-    "686",
-    "504"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/senegal-reinstated-as-afcon-2025-winners"
-    },
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/senegal-awarded-africa-cup-of-nations-after-winning-appeal-over-title-being-stripped-13615900"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/24/cas-awards-senegal-afcon-title-after-successful-appeal"
-    },
-    {
-     "name": "RFI",
-     "url": "https://www.rfi.fr/en/sports/20261124-top-sports-lawyers-declare-senegal-2025-afcon-champions"
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/"
     }
    ],
    "outlets": 5
   },
   {
-   "id": "2026-11-24-08",
-   "rank": 8,
-   "title": "Hostage situation reported in Colombia as armed men flee into supermarket",
-   "summary": "President Abelardo de la Espriella says police and military have been deployed as situation unfolds in Cartagena.",
+   "id": "2026-11-25-04",
+   "rank": 4,
+   "title": "Thomas Markle charged in US for possessing child sex abuse images",
+   "summary": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material.",
+   "countries": [
+    "840",
+    "608"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/24/world/europe/thomas-markle-indicted.html"
+    },
+    {
+     "name": "Sky News",
+     "url": "https://news.sky.com/story/thomas-markle-formally-charged-in-us-over-possessing-child-sexual-abuse-material-13616074"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece"
+    }
+   ],
+   "outlets": 5
+  },
+  {
+   "id": "2026-11-25-05",
+   "rank": 5,
+   "title": "Libyan Forces Threaten Retaliation Over Ukraine’s Attack on Russian Ships",
+   "summary": "The Ukrainian drone strike off Libya’s coast killed two Libyan naval officers, according to the forces controlling the country’s east.",
+   "countries": [
+    "804",
+    "643",
+    "434",
+    "250"
+   ],
+   "sources": [
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/25/world/middleeast/libya-ukraine-russia-haftar.html"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/ukraine-russia-libya-attack-9.7435192?cmp=rss"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/russian-attack-kills-two-people-wounds-22-in-ukraines-zaporizhzhia-official-says/article71737237.ece"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
+    }
+   ],
+   "outlets": 5
+  },
+  {
+   "id": "2026-11-25-06",
+   "rank": 6,
+   "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+   "summary": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
    "countries": [
     "170"
    ],
    "sources": [
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket?traffic_source=rss"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/americas/20261124-hostages-supermarket-colombia-cartagena-flights"
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
      "name": "Sky News",
@@ -255,43 +194,139 @@
     },
     {
      "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/cartagena-colombia-hostages-supermarket/"
+     "url": "https://www.cbsnews.com/video/hostages-held-colombia-supermarket-botched-robbery/"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/25/colombia-security-forces-storm-supermarket-where-hostages-are-being-held"
     }
    ],
    "outlets": 5
   },
   {
-   "id": "2026-11-24-09",
-   "rank": 9,
-   "title": "2 Men Arrested on Suspicion of Breaking Into Prince William and Kate’s Country Home",
-   "summary": "The men were arrested near Anmer Hall, the couple’s country retreat in Norfolk, on Monday night.",
+   "id": "2026-11-25-07",
+   "rank": 7,
+   "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+   "summary": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
+   "countries": [
+    "643",
+    "804",
+    "112"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/video/20261125-russian-casualties-in-ukraine-war-new-reports-suggest-death-toll-as-high-as-700-000"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/russia-ukraine-war-russian-soldier-death-toll-data-leak/"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-trump-putin-troops-death-toll-b3091347.html"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-25-08",
+   "rank": 8,
+   "title": "2 Men Charged After Break-In at Prince William and Kate’s Country Home",
+   "summary": "Prosecutors said the two men, who appeared in court on Wednesday, had climbed a drainpipe to break into the royals’ country retreat in Norfolk.",
    "countries": [
     "826"
    ],
    "sources": [
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/24/world/europe/prince-william-kate-home-break-in-anmer-hall-uk.html"
+     "url": "https://www.nytimes.com/2026/11/25/world/europe/prince-william-kate-home-break-in-charged.html"
     },
     {
      "name": "CBS News",
      "url": "https://www.cbsnews.com/news/prince-william-kate-country-home-broken-into-british-media/"
     },
     {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/breakin-royals-william-kate-country-home-sandringham-9.7433700?cmp=rss"
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/uk-police-charge-two-men-over-a-break-in-at-prince-william-and-princess-catherines-country-home/article71742079.ece"
     },
     {
      "name": "Washington Post",
      "url": "https://www.washingtonpost.com/the-seven/2026/11/24/two-men-arrested-possible-burglary-home-prince-william-princess-kate/"
     }
    ],
-   "outlets": 5
+   "outlets": 4
   },
   {
-   "id": "2026-11-24-10",
+   "id": "2026-11-25-09",
+   "rank": 9,
+   "title": "North Korea expels Swiss diplomat in sanctions row",
+   "summary": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing.",
+   "countries": [
+    "408",
+    "756",
+    "804",
+    "156",
+    "643"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/25/world/asia/north-korea-switzerland-diplomats.html"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/north-korea-declares-a-swiss-diplomat-persona-non-grata-and-orders-him-to-leave/article71741084.ece"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/25/north-korea-expels-swiss-diplomat-and-orders-berns-new-pyongyang-office-to-close"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-25-10",
    "rank": 10,
-   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "title": "Canadian astronaut welcomes baby girl from space station",
+   "summary": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
+   "countries": [
+    "156",
+    "586",
+    "124"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/china-launches-shenzhou-24-spacecraft/"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/article71740891.ece"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-25-11",
+   "rank": 11,
+   "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
    "summary": "The verdict follows a months-long trial in New York.",
    "countries": [
     "840",
@@ -305,248 +340,220 @@
      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss"
+     "name": "Sky News",
+     "url": "https://news.sky.com/story/chinese-tech-giant-guilty-of-plotting-to-steal-trade-secrets-and-bank-fraud-13616130"
     },
     {
      "name": "The Hindu",
      "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html"
     }
    ],
    "outlets": 4
   },
   {
-   "id": "2026-11-24-11",
-   "rank": 11,
-   "title": "Car bomb tears through Colombian city wounding more than 20",
-   "summary": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
-   "countries": [
-    "170"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/car-bomb-destroys-buildings-in-central-colombian-city"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/car-bomb-destroys-buildings-in-villavicencio-says-colombian-president-de-la-espriella/article71737324.ece"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-24-12",
+   "id": "2026-11-25-12",
    "rank": 12,
-   "title": "Land mine casualties soar in Syria, two years after war",
-   "summary": "Nearly 1,000 children are among those killed or injured by explosives left over from the conflict, figures show.",
+   "title": "Two children among six dead after plane crash off Mississippi coast",
+   "summary": "Divers found the bodies of three adult, one teenager aged 16, and two boys, aged 12 and 10, in the wreckage.",
    "countries": [
-    "104",
-    "760"
+    "840"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/24/global-landmine-casualties-hit-a-five-year-high-driven-by-myanmar-syria?traffic_source=rss"
+     "name": "Sky News",
+     "url": "https://news.sky.com/story/divers-find-bodies-of-six-people-including-two-children-after-us-plane-crash-13616273"
     },
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/global-land-mine-casualties-hit-5-year-high-138403128"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000"
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/brent-stokes-mississippi-plane-crash-victims-florida-b3091735.html"
     }
    ],
-   "outlets": 4
+   "outlets": 3
   },
   {
-   "id": "2026-11-24-13",
+   "id": "2026-11-25-13",
    "rank": 13,
-   "title": "Murder Charge Reinstated for French Police Officer in Teen’s Shooting",
-   "summary": "The killing of Nahel Merzouk, 17, sparked nationwide unrest.",
+   "title": "US announces new tariffs on host of countries including China",
+   "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
    "countries": [
-    "250"
-   ],
-   "sources": [
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/24/world/europe/france-nahel-merzouk.html"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261124-french-police-officer-who-shot-teenager-to-face-murder-trial"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/europe/france-police-officer-shot-teenager-b3090567.html"
-    },
-    {
-     "name": "RFI",
-     "url": "https://www.rfi.fr/en/france/20261124-french-officer-to-stand-trial-for-murder-over-nahel-shooting"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-24-14",
-   "rank": 14,
-   "title": "Over 700,000 Russian Soldiers Have Died in Ukraine, Analysis Indicates",
-   "summary": "Hacked government data underscores the immense human cost of President Vladimir V.",
-   "countries": [
-    "643",
-    "804",
-    "112"
-   ],
-   "sources": [
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/23/world/europe/russia-ukraine-war-deaths.html"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/video/20261124-leaked-data-suggests-500-000-russian-soldiers-killed-since-start-of-ukraine-invasion"
-    },
-    {
-     "name": "Euronews",
-     "url": "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals"
-    },
-    {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/europe/russia-suicide-ukraine-war-casualties-b3090565.html"
-    }
-   ],
-   "outlets": 4
-  },
-  {
-   "id": "2026-11-24-15",
-   "rank": 15,
-   "title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
-   "summary": "Hasina has spoken several times of her desire to return, but this is the first time she has set a date.",
-   "countries": [
-    "050",
+    "840",
+    "156",
     "356"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/spokesperson-ousted-bangladeshi-prime-minister-sheikh-hasina-plans-138398785"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china"
     },
     {
      "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/former-bangladesh-pm-sheikh-hasina-return-to-bangladesh/article71737182.ece"
+     "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece"
     }
    ],
    "outlets": 3
   },
   {
-   "id": "2026-11-24-16",
-   "rank": 16,
-   "title": "US Army to detonate more than 4 tonnes of lead azide in Iowa on Wednesday",
-   "summary": "Despite alarm about toxic lead, federal officials say destroying the unstable explosives is the safest course of action.",
+   "id": "2026-11-25-14",
+   "rank": 14,
+   "title": "Netanyahu says corruption trial ‘must end’ as court suggests dropping case",
+   "summary": "The judges' recommendations came as Israel's longest-serving prime minister fights for his political survival.",
    "countries": [
-    "840"
+    "376"
    ],
    "sources": [
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/24/us-army-to-detonate-more-than-4-tonnes-of-lead-azide-in-iowa-on-wednesday?traffic_source=rss"
+     "url": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case?traffic_source=rss"
     },
     {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/iowa-lead-azide-explosion-explosive-army-9.7432313?cmp=rss"
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/25/world/middleeast/judges-israel-corruption-case-netanyahu.html"
     },
     {
-     "name": "The Independent",
-     "url": "https://www.independent.co.uk/news/world/americas/donald-trump-middletown-justice-department-national-weather-service-fema-b3090745.html"
+     "name": "France 24",
+     "url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges"
     }
    ],
    "outlets": 3
   },
   {
-   "id": "2026-11-24-17",
-   "rank": 17,
-   "title": "Outrage after ICE arrest father and daughter at Seattle airport",
-   "summary": "ICE officers arrested two passengers, a father and daughter, as they were boarding a flight in Seattle on Saturday.",
+   "id": "2026-11-25-15",
+   "rank": 15,
+   "title": "Migrant wrongly deported by Trump leaves US for Spain",
+   "summary": "Kilmar Abrego Garcia has arrived in Spain with his wife after a 20-month legal battle with the Trump administration.",
    "countries": [
+    "840",
+    "724",
+    "222"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/25/wrongly-deported-salvadoran-arrives-in-spain-after-us-legal-battle"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/11/25/kilmar-abrego-garcia-arrives-spain-where-europes-anti-trump-is-ropes/"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-25-16",
+   "rank": 16,
+   "title": "Colombian forces rescue all hostages after supermarket siege",
+   "summary": "All hostages have been rescued by Colombian forces after a 17-hour siege in Cartagena supermarket.",
+   "countries": [
+    "170"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/video/20261125-colombia-security-forces-rescue-hostages-in-supermarket-siege"
+    },
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/colombia-supermarket-siege-ends-security-forces-storm-scene/"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-25-17",
+   "rank": 17,
+   "title": "Bangladesh garment workers who supply H&M, Walmart and Gap protest lowest pay hike in 40 years",
+   "summary": "Bangladesh, which supplies major retailers such as H&M, Zara, Walmart, Target and Gap, has approved the smallest minimum wage hike for garment workers in four decades, despite weeks of protests.",
+   "countries": [
+    "050",
+    "156",
     "840"
    ],
    "sources": [
     {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/videos/crd910g5x882o?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
      "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/seattle-airport-ice-arrest-9.7432394?cmp=rss"
+     "url": "https://www.cbc.ca/news/world/bangladesh-garment-workers-protest-9.7435339?cmp=rss"
     },
     {
-     "name": "Times of India",
-     "url": "https://timesofindia.indiatimes.com/world/us/sofia-hernandez-mejias-arrest-by-ice-from-seattle-airport-husband-says-he-feels-useless-as-a-us-citizen/articleshow/136141225.cms"
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/bangladesh-garment-workers-win-36-wage-rise/article71741049.ece"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/asia/south-asia/article/3375787/bangladesh-garment-workers-win-36-minimum-wage-rise-after-protests"
     }
    ],
    "outlets": 3
   },
   {
-   "id": "2026-11-24-18",
+   "id": "2026-11-25-18",
    "rank": 18,
-   "title": "China Investigates Chen Jining, Shanghai’s Party Leader, as Xi’s Purges Expand",
-   "summary": "Before his abrupt downfall, the technocratic Chen Jining was seen as a future national leader in Xi Jinping’s China.",
+   "title": "Solomon Islands Enters Security Treaty With Australia, in a Blow to China",
+   "summary": "A 2022 Solomon Islands agreement with China had raised concerns it would enable Beijing to establish a military presence on the Pacific island.",
    "countries": [
+    "036",
+    "090",
     "156"
    ],
    "sources": [
     {
      "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/24/world/asia/shanghai-party-leader-investigation-china-xi.html"
+     "url": "https://www.nytimes.com/2026/11/24/world/asia/solomon-islands-security-treaty-australia-china.html"
     },
     {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/china-investigates-politburo-member-shanghai-party-chief-chen-138407145"
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/solomon-islands-names-australia-as-its-primary-security-partner-in-a-new-treaty-that-excludes-china/article71741038.ece"
     },
     {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/china/politics/article/3375640/shanghai-party-chief-faces-corruption-probe"
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/australasia/australia-solomon-islands-china-security-pact-b3091105.html"
     }
    ],
    "outlets": 3
   }
  ],
  "video": {
-  "edition": "2026-11-24",
-  "file": "videos/2026-11-24.mp4",
-  "title": "What Jensen Huang's return teaches China's Xi about Trump",
-  "storyId": "2026-11-24-01",
+  "edition": "2026-11-25",
+  "file": "videos/2026-11-25.mp4",
+  "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+  "storyId": "2026-11-25-01",
   "tokens": [
-   "jensen",
-   "huang",
-   "return",
-   "teache",
-   "china",
-   "trump"
+   "thirty",
+   "killed",
+   "massive",
+   "fire",
+   "fuel",
+   "tanker",
+   "crashe",
+   "cairo",
+   "highway"
   ]
  },
  "videos": [
+  {
+   "edition": "2026-11-25",
+   "file": "videos/2026-11-25.mp4",
+   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway"
+  },
   {
    "edition": "2026-11-24",
    "file": "videos/2026-11-24.mp4",
@@ -576,11 +583,6 @@
    "edition": "2026-11-16",
    "file": "videos/2026-11-16.mp4",
    "title": "Trump denies responsibility for FAA nationwide ground stop"
-  },
-  {
-   "edition": "2026-11-15",
-   "file": "videos/2026-11-15.mp4",
-   "title": "Iran targets US military base in Bahrain with drone attack"
   }
  ]
 }
