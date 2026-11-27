@@ -1,50 +1,73 @@
 {
- "edition": "2026-11-26",
- "generated": "2026-11-26T22:21:29.876Z",
+ "edition": "2026-11-27",
+ "generated": "2026-11-27T21:57:59.957Z",
  "names": {
-  "104": "Myanmar",
-  "112": "Belarus",
+  "124": "Canada",
   "156": "China",
+  "180": "DR Congo",
+  "188": "Costa Rica",
   "250": "France",
   "275": "Palestine",
-  "276": "Germany",
   "364": "Iran",
   "376": "Israel",
   "380": "Italy",
-  "400": "Jordan",
+  "404": "Kenya",
   "414": "Kuwait",
+  "428": "Latvia",
+  "484": "Mexico",
   "624": "Guinea-Bissau",
   "643": "Russia",
-  "724": "Spain",
-  "756": "Switzerland",
+  "800": "Uganda",
   "804": "Ukraine",
-  "818": "Egypt",
   "826": "United Kingdom",
   "840": "United States",
-  "056": "Belgium"
+  "862": "Venezuela",
+  "048": "Bahrain",
+  "076": "Brazil"
  },
  "stories": [
   {
-   "id": "2026-11-26-01",
+   "id": "2026-11-27-01",
    "rank": 1,
-   "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-   "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+   "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+   "summary": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their fundamental rights.",
    "countries": [
-    "364",
-    "414",
-    "380",
-    "276",
+    "124",
     "840"
    ],
    "sources": [
     {
      "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&amp;at_campaign=rss"
+     "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&amp;at_campaign=rss"
     },
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
+     "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss"
     },
+    {
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/2026/11/27/world/canada/canada-supreme-court-quebec-religion-bill-21.html"
+    },
+    {
+     "name": "DW",
+     "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-rdf"
+    }
+   ],
+   "outlets": 8
+  },
+  {
+   "id": "2026-11-27-02",
+   "rank": 2,
+   "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
+   "summary": "The deaths follow a series of strikes on Gulf Arab states that host U.S.",
+   "countries": [
+    "364",
+    "414",
+    "380",
+    "048",
+    "840"
+   ],
+   "sources": [
     {
      "name": "New York Times",
      "url": "https://www.nytimes.com/2026/11/26/world/middleeast/italians-killed-iran-drone-attack-kuwait.html"
@@ -52,407 +75,144 @@
     {
      "name": "CBS News",
      "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/"
+    },
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece"
     }
    ],
    "outlets": 6
   },
   {
-   "id": "2026-11-26-02",
-   "rank": 2,
-   "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
-   "summary": "A Paris appeals court rules Depardieu will go on trial for the alleged rape of Charlotte Arnould.",
-   "countries": [
-    "250"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/26/paris-court-orders-gerard-depardieu-to-stand-trial-for-rape-sexual-assault?traffic_source=rss"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/26/world/europe/france-depardieu-rape-trial.html"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/gerard-depardieu-trial-alleged-rape-paris/"
-    }
-   ],
-   "outlets": 6
-  },
-  {
-   "id": "2026-11-26-03",
+   "id": "2026-11-27-03",
    "rank": 3,
-   "title": "Deadly fire erupts near Cairo killing dozens of people",
-   "summary": "At least 31 people have died in a large fire on a busy highway in Cairo, after a fuel tanker overturned, says Egypt's health ministry.",
+   "title": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
+   "summary": "Costa Rica has barred UN special rapporteur Francesca Albanese, citing unfounded ‘links to terrorist acts’.",
    "countries": [
-    "818"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/videos/c52e8ndplvemo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/25/world/middleeast/road-fire-near-cairo-kills-dozens-after-petroleum-laden-truck-crashes.html"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/fire-major-highway-surrounding-cairo-kills-30-people-138450467"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss"
-    }
-   ],
-   "outlets": 6
-  },
-  {
-   "id": "2026-11-26-04",
-   "rank": 4,
-   "title": "Trump urges Putin to end 'military aggression' in Europe",
-   "summary": "US President Donald Trump said Thursday he had asked Vladimir Putin to \"pull back all military aggression\" against Europe, in a shift in tone towards the leader Russian he called his friend just a week ago.",
-   "countries": [
-    "643",
-    "804",
-    "840",
-    "156",
-    "112"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/russia-ukraine-war-extends-to-the-baltic-and-the-mediterranean/a-80054604?maca=en-rss-en-world-4025-rdf"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/video/heres-why-black-sea-matters-for-nato-russia-ukraine-war/"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/kremlin-accuses-ukraine-of-trying-to-widen-conflict-zone-to-mediterranean-and-baltic-seas/article71747857.ece"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-26-05",
-   "rank": 5,
-   "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-   "summary": "Simon Le Bon and his other bandmates say Taylor \"brought an indelible fire and swagger to our music\".",
-   "countries": [],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "CBS News",
-     "url": "https://www.cbsnews.com/news/andy-taylor-guitarist-duran-duran-dies-age-65/"
-    },
-    {
-     "name": "CBC",
-     "url": "https://www.cbc.ca/news/entertainment/duran-duran-guitarist-andy-taylor-dead-9.7436261?cmp=rss"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/entertainment/music/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/article71744266.ece"
-    }
-   ],
-   "outlets": 5
-  },
-  {
-   "id": "2026-11-26-06",
-   "rank": 6,
-   "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-   "summary": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
-   "countries": [
-    "724"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_loaded-diesel-tanker-capsizes-off-ibiza-killing-one-261126?traffic_source=rss"
-    },
-    {
-     "name": "DW",
-     "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054?maca=en-rss-en-world-4025-rdf"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-26-07",
-   "rank": 7,
-   "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
-   "summary": "Prosecutors order drug tests for the 21-year-old suspect, who says he was overtaking when the crash happened.",
-   "countries": [
-    "818"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss"
-    },
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/driver-of-car-suspected-of-causing-fuel-tanker-to-overturn-in-egypt-detained-13616933"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/egypt-detains-driver-suspected-causing-cairo-tanker-crash-138465415"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-26-08",
-   "rank": 8,
-   "title": "Net Migration to U.K. Falls to Lowest Level Since 1997, Excluding Pandemic",
-   "summary": "The drop was largely driven by fewer people arriving from outside the European Union.",
-   "countries": [
-    "826"
-   ],
-   "sources": [
-    {
-     "name": "New York Times",
-     "url": "https://www.nytimes.com/2026/11/26/world/europe/uk-net-migration-data.html"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/uk-net-migration-falls-to-lowest-since-1997-indians-largest-foreign-group-entering-and-leaving-the-country/article71746576.ece"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/europe/article/3375952/uk-net-migration-falls-77000-lowest-annual-level-nearly-30-years"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-26-09",
-   "rank": 9,
-   "title": "EU leaders struggle to agree on long-term budget, $49bn Ukraine loan",
-   "summary": "The bloc is holding an extraordinary summit in Brussels to discuss its budget proposal for 2028 to 2034.",
-   "countries": [
-    "804",
-    "056",
-    "250",
-    "276"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine?traffic_source=rss"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/eu-leaders-seek-bridge-differences-agree-budget-deal-138463077"
-    },
-    {
-     "name": "RFI",
-     "url": "https://www.rfi.fr/en/international/20261126-eu-leaders-set-for-bruising-battle-over-budget-ukraine"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-26-10",
-   "rank": 10,
-   "title": "Spanish economist to become new European Central Bank chief",
-   "summary": "Economist Pablo Hernandez de Cos was announced after a meeting of eurozone leaders.",
-   "countries": [
-    "724",
-    "250",
-    "364",
-    "756"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief?traffic_source=rss"
-    },
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb"
-    },
-    {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/europe/article/3375963/spains-pablo-hernandez-de-cos-succeed-lagarde-european-central-bank-chief"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-26-11",
-   "rank": 11,
-   "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
-   "summary": "A landmark ruling by the International Court of Justice (ICJ) convicted Myanmar of genocide against its Rohingya minority.",
-   "countries": [
-    "104"
-   ],
-   "sources": [
-    {
-     "name": "BBC",
-     "url": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&amp;at_campaign=rss"
-    },
-    {
-     "name": "Sky News",
-     "url": "https://news.sky.com/story/myanmar-says-it-will-not-comply-with-inappropriate-icj-genocide-orders-13616762"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/myanmar-says-it-will-not-fully-comply-with-icj-genocide-orders/article71747952.ece"
-    }
-   ],
-   "outlets": 3
-  },
-  {
-   "id": "2026-11-26-12",
-   "rank": 12,
-   "title": "France's Bardella faces new allegations of anti-Semitic comments",
-   "summary": "French far-right leader Jordan Bardella on Thursday faced new accusations of having made anti-Semitic remarks as a teenager, after French media published extracts from previously unaired conversations online.",
-   "countries": [
-    "250",
-    "400"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/france-s-bardella-faces-new-allegations-of-antisemitic-comments"
-    },
-    {
-     "name": "RFI",
-     "url": "https://www.rfi.fr/en/france/20261126-french-media-reveal-more-antisemitic-messages-allegedly-sent-by-jordan-bardella"
-    }
-   ],
-   "outlets": 2
-  },
-  {
-   "id": "2026-11-26-13",
-   "rank": 13,
-   "title": "Spain's De Cos chosen as next ECB president",
-   "summary": "European leaders have agreed to nominate the former head of the Bank of Spain as the next president of the European Central Bank.",
-   "countries": [
-    "724",
-    "840"
-   ],
-   "sources": [
-    {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/spain-s-de-cos-chosen-as-next-ecb-president"
-    },
-    {
-     "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/leaders-choose-spains-former-central-bank-head-european-138468703"
-    }
-   ],
-   "outlets": 2
-  },
-  {
-   "id": "2026-11-26-14",
-   "rank": 14,
-   "title": "Hamas weighs response after Israel kills 10 people in Gaza",
-   "summary": "Five Israeli strikes and a shooting overnight and on Thursday killed 10 Palestinians across Gaza, according to officials at Shifa and Al-Aqsa Martyrs hospitals, where the casualties were taken.",
-   "countries": [
+    "188",
     "275",
     "376"
    ],
    "sources": [
     {
-     "name": "France 24",
-     "url": "https://www.france24.com/en/hamas-weighs-response-after-israel-kills-10-people-in-gaza"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/israel-kills-nine-in-gaza-including-hamas-appointed-deputy-education-minister-officials-say/article71747983.ece"
-    }
-   ],
-   "outlets": 2
-  },
-  {
-   "id": "2026-11-26-15",
-   "rank": 15,
-   "title": "Musk pledges two SpaceX shares for every US child",
-   "summary": "US children would receive one share from SpaceX and one from him personally, Musk said.",
-   "countries": [
-    "840"
-   ],
-   "sources": [
-    {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/26/musk-pledges-two-spacex-shares-for-every-us-child?traffic_source=rss"
-    },
-    {
-     "name": "The Hindu",
-     "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece"
-    }
-   ],
-   "outlets": 2
-  },
-  {
-   "id": "2026-11-26-16",
-   "rank": 16,
-   "title": "Guinea-Bissau military leaders delay presidential election until 2028",
-   "summary": "Military leaders say presidential and legislative poll scheduled for December 6 will now take place in November 2028.",
-   "countries": [
-    "624"
-   ],
-   "sources": [
-    {
-     "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years?traffic_source=rss"
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss"
     },
     {
      "name": "ABC News",
-     "url": "https://abcnews.com/International/wireStory/guinea-bissaus-military-junta-postpones-elections-2028-extending-138470757"
+     "url": "https://abcnews.com/International/wireStory/rapporteur-albanese-limbo-airport-after-denied-entry-costa-138484778"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/costa-rica-bars-entry-to-un-rapporteur-over-links-to-terrorist-acts/article71749582.ece"
+    },
+    {
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/international/20261127-costa-rica-bars-entry-to-un-rapporteur-over-links-to-terrorist-acts"
     }
    ],
-   "outlets": 2
+   "outlets": 4
   },
   {
-   "id": "2026-11-26-17",
-   "rank": 17,
-   "title": "Trump calls GDP data released before midterms ‘fake’, demands investigation",
-   "summary": "President says it was a deliberate decision to release 'fake' growth numbers before US midterm elections.",
+   "id": "2026-11-27-04",
+   "rank": 4,
+   "title": "Zelenskyy: Trump calling Putin a friend like calling Hitler a friend",
+   "summary": "Volodymyr Zelenskyy described President Trump calling Vladimir Putin \"my friend\" as \"strange\" because the Russian leader is \"an aggressor and a killer.\"",
    "countries": [
+    "840",
+    "643",
+    "804"
+   ],
+   "sources": [
+    {
+     "name": "CBS News",
+     "url": "https://www.cbsnews.com/news/zelenskyy-trump-calling-putin-friend-like-hitler-viewed-friend-wwii/"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/zelenskyy-urges-us-pressure-putin-calling-trumps-friend-138478386"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/zelensky-trump-putin-hitler-ukraine-russia-war-b3092578.html"
+    },
+    {
+     "name": "South China Morning Post",
+     "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii"
+    }
+   ],
+   "outlets": 4
+  },
+  {
+   "id": "2026-11-27-05",
+   "rank": 5,
+   "title": "Mexico files complaint with US over DEA tip line on alleged drug dealers",
+   "summary": "Tensions rise over DEA tip line, with Mexico emphasising respect for its sovereignty amidst growing bilateral discord.",
+   "countries": [
+    "484",
     "840"
    ],
    "sources": [
     {
      "name": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation?traffic_source=rss"
+     "url": "https://www.aljazeera.com/news/2026/11/27/mexico-files-complaint-with-us-over-tip-line-on-alleged-drug-traffickers?traffic_source=rss"
     },
     {
-     "name": "South China Morning Post",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375962/trump-calls-gdp-figures-fake-demands-probe-his-own-commerce-department"
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/mexico-files-formal-complaint-us-dea-tip-line-138484649"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/11/27/mexico-condemns-dea-tip-line-asking-people-report-corrupt-officials-sinaloa/"
     }
    ],
-   "outlets": 2
+   "outlets": 3
   },
   {
-   "id": "2026-11-26-18",
-   "rank": 18,
-   "title": "Israel's Gadi Eisenkot reaches deal with left-wing parties",
-   "summary": "The left-leaning Democrats are the second party to agree to a coalition deal with Yashar after the right-wing Israel Beiteinu party did so on Nov.",
+   "id": "2026-11-27-06",
+   "rank": 6,
+   "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+   "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
+   "countries": [
+    "643",
+    "804",
+    "840",
+    "156"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Washington Post",
+     "url": "https://www.washingtonpost.com/world/2026/11/27/trump-defends-putin-friendship-that-zelensky-calls-strange/"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-27-07",
+   "rank": 7,
+   "title": "Israel’s Eisenkot accuses Netanyahu’s party of stalling coalition talks",
+   "summary": "Yashar party chief says Likud wants to drag Israel into another election under the outgoing government.",
    "countries": [
     "376",
     "840"
    ],
    "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/27/israels-eisenkot-accuses-netanyahus-party-of-stalling-coalition-talks?traffic_source=rss"
+    },
     {
      "name": "The Hindu",
      "url": "https://www.thehindu.com/news/international/israels-gadi-eisenkot-reaches-deal-with-left-wing-parties/article71747775.ece"
@@ -462,25 +222,276 @@
      "url": "https://www.washingtonpost.com/world/2026/11/26/he-races-unseat-netanyahu-eisenkot-reaches-deal-with-left-wing-party/"
     }
    ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-27-08",
+   "rank": 8,
+   "title": "EU leaders fail to bridge budget splits as talks stall",
+   "summary": "Aid for Ukraine was among the disputes as EU members hope to conclude talks by the end of the year.",
+   "countries": [
+    "804",
+    "250"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/ukraine-loan-limbo-after-eu-budget-talks-stall-138478913"
+    },
+    {
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/international/20261127-eu-leaders-fail-to-agree-over-budget-final-decision-postponed-till-december"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-27-09",
+   "rank": 9,
+   "title": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+   "summary": "The announcement comes a year after a military coup with its leaders promising a return to civilian rule within 12 months.",
+   "countries": [
+    "624"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/guinea-bissaus-military-junta-postpones-elections-2028-extending-138470757"
+    },
+    {
+     "name": "RFI",
+     "url": "https://www.rfi.fr/en/africa/20261127-guinea-bissau-military-junta-pushes-elections-to-2028-extending-rule-by-two-years"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-27-10",
+   "rank": 10,
+   "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
+   "summary": "Strobe Talbott, a former Time magazine reporter who later served as deputy secretary of state under President Bill Clinton and then headed the Brookings Institution, died Thursday.",
+   "countries": [
+    "826",
+    "643"
+   ],
+   "sources": [
+    {
+     "name": "NPR",
+     "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/strobe-talbott-former-time-magazine-reporter-and-deputy-secretary-of-state-has-died/article71748303.ece"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/strobe-talbott-death-cause-b3092805.html"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-27-11",
+   "rank": 11,
+   "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
+   "summary": "A powerful storm disrupted the Thanksgiving holiday along much of the U.S.",
+   "countries": [
+    "840"
+   ],
+   "sources": [
+    {
+     "name": "CBC",
+     "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/major-storm-batters-us-on-thanksgiving-holiday-400-flights-cancelled/article71749233.ece"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel"
+    }
+   ],
+   "outlets": 3
+  },
+  {
+   "id": "2026-11-27-12",
+   "rank": 12,
+   "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
+   "summary": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday.",
+   "countries": [
+    "275",
+    "376"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/middle-east/hamas-israel-military-strike-khalil-al-hayya-b3093052.html"
+    }
+   ],
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-27-13",
+   "rank": 13,
+   "title": "Kyiv offers Black Sea ceasefire to protect grain exports",
+   "summary": "The proposal comes as President Zelenskyy criticises Trump’s ‘friendship’ with Putin.",
+   "countries": [
+    "804",
+    "643",
+    "840"
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
+    }
+   ],
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-27-14",
+   "rank": 14,
+   "title": "Venezuela to scrap law that bars opposition from public office",
+   "summary": "The legislation has been criticised for enabling political persecution since it was introduced two years ago.",
+   "countries": [
+    "862"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c58j4pw9xjrlo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss"
+    }
+   ],
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-27-15",
+   "rank": 15,
+   "title": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
+   "summary": "The Ugandan army is helping the Congolese military fight an Islamist militant group in the east of the country.",
+   "countries": [
+    "800",
+    "180"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "France 24",
+     "url": "https://www.france24.com/en/africa/20261127-uganda-withdraw-troops-dr-congo-town-after-army-chief-threat-row"
+    }
+   ],
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-27-16",
+   "rank": 16,
+   "title": "NATO jets scrambled after drone enters Latvian airspace",
+   "summary": "This year, two drones were shot down over Latvia by NATO fighter jets, which protect the skies of Baltic states",
+   "countries": [
+    "428"
+   ],
+   "sources": [
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/nato-jets-scrambled-after-drone-enters-latvian-airspace/article71752112.ece"
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace"
+    }
+   ],
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-27-17",
+   "rank": 17,
+   "title": "Lula’s choice of Bradesco banker as Brazil’s finance minister lifts markets",
+   "summary": "Brazilian markets have rallied after President Luiz In cio Lula da Silva confirmed that veteran banker Luiz Carlos Trabuco would lead his finance ministry in 2027, a move seen as a commitment to fiscal…",
+   "countries": [
+    "076"
+   ],
+   "sources": [
+    {
+     "name": "ABC News",
+     "url": "https://abcnews.com/International/wireStory/lulas-choice-bradesco-banker-brazils-finance-minister-lifts-138482032"
+    },
+    {
+     "name": "The Hindu",
+     "url": "https://www.thehindu.com/news/international/brazils-lula-appoints-private-banker-as-finance-minister/article71749184.ece"
+    }
+   ],
+   "outlets": 2
+  },
+  {
+   "id": "2026-11-27-18",
+   "rank": 18,
+   "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+   "summary": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
+   "countries": [
+    "404"
+   ],
+   "sources": [
+    {
+     "name": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&amp;at_campaign=rss"
+    },
+    {
+     "name": "The Independent",
+     "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html"
+    }
+   ],
    "outlets": 2
   }
  ],
  "video": {
-  "edition": "2026-11-26",
-  "file": "videos/2026-11-26.mp4",
-  "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-  "storyId": "2026-11-26-01",
+  "edition": "2026-11-27",
+  "file": "videos/2026-11-27.mp4",
+  "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+  "storyId": "2026-11-27-01",
   "tokens": [
-   "italian",
-   "killed",
-   "strike",
-   "kuwait",
-   "iran",
-   "denie",
-   "responsibility"
+   "canada",
+   "top",
+   "court",
+   "largely",
+   "uphold",
+   "quebec",
+   "ban",
+   "religiou",
+   "symbol",
+   "public",
+   "servant"
   ]
  },
  "videos": [
+  {
+   "edition": "2026-11-27",
+   "file": "videos/2026-11-27.mp4",
+   "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants"
+  },
   {
    "edition": "2026-11-26",
    "file": "videos/2026-11-26.mp4",
@@ -510,11 +521,6 @@
    "edition": "2026-11-17",
    "file": "videos/2026-11-17.mp4",
    "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine"
-  },
-  {
-   "edition": "2026-11-16",
-   "file": "videos/2026-11-16.mp4",
-   "title": "Trump denies responsibility for FAA nationwide ground stop"
   }
  ]
 }
